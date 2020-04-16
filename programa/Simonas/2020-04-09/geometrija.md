@@ -4,11 +4,11 @@
 
 [Visų klasių matematikos vadovėliai](https://dienynas.tamo.lt/Leidiniai)
 
-[Geometrinę vaizduotę lavinantis žaidimas](www.euclidea.xyz/)
+[Geometrinę vaizduotę lavinantis žaidimas Euclidea](www.euclidea.xyz/)
 
-[Mintinių eksperimentų vizualizacijos](https://www.geogebra.org)
+[Mintinių eksperimentų vizualizacijos](https://www.geogebra.org/materials)
 
-[Programa, su kuria galima braižyti brėžinius](Geogebra Classic 6)
+[Programa, su kuria galima braižyti brėžinius - Geogebra Classic  6](https://www.geogebra.org/download)
 
 ### Ką mokėmės:
 
