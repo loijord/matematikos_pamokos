@@ -1,0 +1,17 @@
+|Sąvoka|Apibrėžimas|Vaizdas|
+|:-----|:-----|:-----|
+|**Kampo kraštinės**|Spinduliai, tarp kurių yra kampo vidinė dalis.|<img src="concept_pics/pic1.PNG" width="70"/>|
+|**Kampo viršūnė**|Taškas, iš kurio išeina kampo kraštinės.|<img src="concept_pics/pic2.PNG" width="70"/>|
+|**Ištiestinis kampas**|Kampas, kurio kraštinės sudaro tiesę.|<img src="concept_pics/pic3.PNG" width="70"/>|
+|**Statusis kampas**|Kampas, lygus pusei ištiestinio kampo (dydžio).|<img src="concept_pics/pic4.PNG"  width="70"/>|
+|**Smailusis kampas**|Kampas, mažesnis už statųjį kampą.|<img src="concept_pics/pic5.PNG" width="70"/>|
+|**Bukasis kampas**|Kampas, didesnis už statųjį, bet mažesnis už ištiestinį.|<img src="concept_pics/pic6.PNG" width="70"/>|
+|**Pusiaukampinė**|Spindulys, išeinantis iš kampo viršūnės ir dalijantis kampą pusiau.|<img src="concept_pics/pic7.PNG" width="70"/>|
+|**Gretutiniai kampai** (du galimi apibrėžimai)|<ul><li>Du kampai, kuriuose viena pora kraštinių sudaro ištiestinį kampą, o kita pora - bendra</li><li>Du kampai, sudaryti nubrėžus spindulį iš ištiestinio kampo viršūnės</li></ul>|<img src="concept_pics/pic8.PNG" width="100"/>|
+|**Kryžminiai kampai** (du galimi apibrėžimai)|<ul><li>Priešingieji(?) kampai, sudaryti iš susikertančių dviejų tiesių</li><li>Du kampai su nesutampančiomis kraštinėmis, sudaryti iš susikertančių dviejų tiesių</li></ul>|<img src="concept_pics/pic9.PNG" width="100"/>|
+|**Lygiagrečios tiesės**|Jomis vadinamos tokios plokštumos tiesės, kurios nesikerta.|<img src="concept_pics/pic10.PNG" width="100"/>|
+|**Kirstinė**|Jomis vadinamos tokios plokštumos tiesės, kurios nesikerta.|<img src="concept_pics/pic11.PNG" width="70"/>|
+|**Vidaus kampai**|Tai kampai, esantys tarp dviejų lygiagrečių tiesių, kurių viena kraštinė sutampa su kirstine|<img src="concept_pics/pic12.PNG" width="100"/>|
+|**Priešiniai kampai**|Tai vidaus kampai, esantys priešingose kirstinės pusėse (ir nesantys gretutiniai)|<img src="concept_pics/pic13.PNG" width="100"/>|
+|**Vienašaliai kampai**|Tai vidaus kampai, esantys toje pačioje kirstinės pusėje.|<img src="concept_pics/pic14.PNG" width="100"/>|
+|**Atitinkamieji kampai**|Tai kampai, esantys toje pačioje kirstinės pusėje ir toje pačioje lygiagrečių tiesių pusėje.|<img src="concept_pics/pic15.PNG" width="100"/>|
