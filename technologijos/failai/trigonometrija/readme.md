@@ -11,7 +11,6 @@ Tekstas surinktas ir animacijos kurtos su *LATEX* programa.
 Smagaus skaitymo!
 
 ### Kodėl verta failą atidaryti su Acrobat Reader?
-
 Faile yra keletas animacijų, tokių kaip:
 
 ![](trigonometrija)
