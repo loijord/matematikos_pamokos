@@ -1,14 +1,6 @@
 ### Apie
 
-Tai yra mokomoji medžiaga moksleivianms, padedanti mokytis trigonometriją nevadovėliniu būdu - pradedant nuo trigonometrinio skritulio sąvokos. 
-
-Visa medžiaga ir uždaviniai - savadarbiai.
-
-Medžiaga yra faile **[trigonometrija.pdf](trigonometrija.pdf)**
-
-Tekstas surinktas ir animacijos kurtos su *LATEX* programa.
-
-Smagaus skaitymo!
+Tai yra mokomoji medžiaga moksleivianms, padedanti mokytis trigonometriją nevadovėliniu būdu - pradedant nuo trigonometrinio skritulio sąvokos. Visa medžiaga ir uždaviniai savadarbiai, tekstas surinktas ir animacijos kurtos su *LATEX* programa. Turinys patalpintas faile **[trigonometrija.pdf](trigonometrija.pdf)**. Smagaus skaitymo!
 
 ### Kodėl verta failą atidaryti su Acrobat Reader?
 Faile yra keletas animacijų, tokių kaip:
