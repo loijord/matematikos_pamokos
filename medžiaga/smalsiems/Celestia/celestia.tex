@@ -1,0 +1,166 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[L7x]{fontenc}
+\usepackage[lithuanian]{babel}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage[top=2cm, bottom=2cm, left=1.5cm, right=1.5cm, footskip=1cm, a4paper]{geometry}
+\usepackage{indentfirst}
+\usepackage{framed}
+\usepackage{tikz}
+\usepackage{listofitems}
+\usepackage{xcolor}
+\usepackage{verbatim}
+\usepackage[unicode]{hyperref}
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{minted}
+\usepackage{cancel}
+\usepackage{framed}
+%\usepackage{mathptmx}
+\usepackage{calc}
+\usepackage{tasks}
+\usetikzlibrary{tikzmark,calc,,arrows,shapes,decorations.pathreplacing}
+\tikzset{every picture/.style={remember picture}}
+
+\newcommand{\inc}[1]{\includegraphics[width=\textwidth]{#1}}
+\newcommand{\incl}[2]{\includegraphics[width=#2\textwidth]{#1}}
+\newcommand{\goto}[2]{\href{\detokenize{#1}}{\textcolor{blue}{#2}}}
+\newcommand{\say}[1]{\textbf{\textit{#1}}}
+%use python script:
+%lines='''B2002_5, B2002_4'''
+%print(', '.join([n[1:5]+'/'+n[0:5]+'/'+n+'.jpg' for n in lines.replace(" ", "").split(',')]))
+\begin{document}
+\section*{CELESTIA}
+\subsection*{Įžanginis žodis}
+\texttt{\textit{Many people understand vaguely that a “universe” exists in the night sky.  What most do not understand is just how spectacular it really is.  How many people know the true size of the universe?  Most cannot even name the planets in order, let alone define a Black Hole or a Pulsar.}}, - from The Addon Repository for the 3D Space Simulator Celestia.
+
+\texttt{\textit{Celestia yra 3D astronominė programa, kuri remiasi Hipparcos (1989 - 1993m. veikusio palydovo) užfiksuotų žvaigždžių katalogu. Ši programa leidžia vartotojams virtualiai pakeliauti po visatos platybes bet kuriuo greičiu, bet kuria kryptimi ir bet kuriuo istoriniu laiko momentu. \textit{Celestia} taip pat leidžia iš įvairių pusių ir įvairiu atstumu apžiūrėti įvairiausius kosminius objektus nuo mažyčio kelių dešimčių metrų dydžių dirbtinių Žemės palydovų iki milijonų šviesmečių skersmens galaktikų. Virtualios kosminės kelionės pranoksta tai, ką galima pamatyti iš planetariumų ar kitų Žemės vietų.}}, - vertimas iš Vikipedijos (angl.)
+
+\subsection*{Instaliavimas}
+
+Programos atsisiuntimą \goto{https://celestia.space/download.html}{galima rasti čia.} Man pavyko susiinstaliuoti programą lietuvių kalba. Paleidžiant programą mūsų kosminis laivas automatiškai nuskrenda į Saulę, o vėliau grįžta į Žemę. Galiausiai matome tokį vaizdą:
+
+\begin{center}
+\incl{main.jpg}{0.5}
+\end{center}
+
+\subsection*{Kaip aplankyti kosminius objektus?}
+Čia aprašysiu visus būdus, kuriais naudojuosi norėdamas apžiūrėti norimas planetas ar palydovus. 
+
+\subsubsection*{Įvesto objekto aplankymas}
+\begin{minipage}[m]{0.6\textwidth}
+Spaudžiame \texttt{Enter} ir ekrane iškyla paieška. Galime įvesti ką tik norime. Pvz. įvedę \texttt{\textbf{Mėnulis}} patenkame į Mėnulį. Tarpinė paieška taip pat vyksta objekto įvedimo metu. Su \texttt{\textbf{TAB}} klavišu galima ,,vaikščioti'' per siūlomus tarpinius paieškos variantus. Pvz. pradėje vesti ,,Mė'' gausime tarpinius rezultatus Mercury, Merkurijus, Mėnulis... Pasirinkę Mėnulį, pamatysime jo duomenų aprašymą.
+\end{minipage}
+\hspace{\fill}
+\begin{minipage}[m]{0.3\textwidth}
+\incl{menulis.jpg}{0.5}
+\end{minipage}
+\subsubsection*{Keliavimas pasinaudojant Saulės sistemos naršykle}
+\begin{minipage}[m]{0.6\textwidth}
+Tačiau kol kas nėra aišku, ką galėtume dar aplankyti.
+
+Einame per: \texttt{\textbf{Navigacija -> Saules sistemos narsykle...}}. 
+
+Pamatysime daugybę planetų, jų polydovų, asteroidų ir netgi kosminių aparatų sąrašą. Pavyzdžiui galima pasirinkti aplankyti dirbtinį Žemės palydovą \texttt{\textbf{Hubble}}.
+\end{minipage}
+\hspace{\fill}
+\begin{minipage}[m]{0.3\textwidth}
+\incl{hubble.jpg}{0.5}
+\end{minipage}
+\subsubsection*{Planetų numeriai ir G mygtukas}
+Norint nuskristi į Saulės sistemos planetas, jų pavadinimų įvedinėti arba naudotis sąrašo paieška visai nebūtina. Planetą galime pasirinkti klaviatūroje paspaudę vieną iš skaičių nuo 1 iki 9.  \textcolor{red}{Tik tuo atveju, jei tikrai vedate skaičius 1,2,...,9, o ne ženklus ą, č, ū, 9...}. Be to, nuskristi ligi pasirinkto objekto galime paspaudę mygtuką $\textbf{\texttt{G}}$. 
+
+\section*{Kosminio laivo valdymas}
+Galėjimas aplankyti norimą objektą yra daug, tačiau to nepakanka. Pamėginsime grįžti į Žemę ir iš jos pasiekti Mėnulį. Pabandykite paspaudę mygtuką $\textbf{\texttt{3}}$ pasirinkti Žemę ir prie jos priskristi (su  $\textbf{\texttt{G}}$). Jei pasirinkti Žemės nepavyko, vadinasi buvote pele pažymėję tolimą žvaigždę, kuri nuo Saulės nutolusi milijonus kartų toliau už kitas planetas. Tokiais atvejais planetų suradimas naudojantis klaviatūros skaičiais sutrinka, tad norint patekti į Žemę prireiks kito būdo. Tam tikslui taip pat egzistuoja unikali komanda $\textbf{\texttt{H}}$, atsakinga už Saulės pažymėjimą. Paspaudus šį mygtuką kelionės taikiniu taps Saulė ir mygtukų 1,2, ..., 9 funkcionalumas bus sugrąžintas.
+\subsection*{Tolyn/artyn}
+Suraskite ir paspauskite savo klaviatūroje mygtukus $\textbf{\texttt{Home}}$ ir $\textbf{\texttt{End}}$. Jų pagalba galėsite kontroliuoti atstumą nuo savo pasirinkto objekto. Šių komandų pagalba galima nuskristi norimai toli ir lygiai taip pat grįžti atgal. \textit{Celesti'}oje numatytų galimybių dydis jau tampa pakankamai ryškus.
+\subsection*{Select/unselect} 
+
+Visais atvejais norint detaliau apžiūrėti pasirinktą objektą geriausia būtų pradėti nuo mygtukų $\textbf{\texttt{F}}$ ir $\textbf{\texttt{T}}$ nuspaudimo.
+
+Paspaudus $\textbf{\texttt{F}}$, kad bet kuris kosminiu laivu atliekamas judėjimas artyn link pasirinkto objekto arba tolyn nuo jo sutaps su kryptimi, kuria mes jį matome. Kitais atvejais gali būti, jog keliaujant $\textbf{\texttt{Home}}$ ir $\textbf{\texttt{End}}$ mygtukų pagalba tiesiog prasilenksime su objektu ir jo iš arti nepamatysime.
+
+Paspaudus $\textbf{\texttt{T}}$ kosminio aparato kamera pasisuks į pažymėtą objektą taip, kad jis būtų rodomas ekrano centre. Kitais atvejais gali būti, jog keliaujant $\textbf{\texttt{Home}}$ ir $\textbf{\texttt{End}}$ mygtukų pagalba kamera bus nusisukusi ir nepamatysime objekto.
+
+\subsection*{Pasisukimas aplink objektą}
+
+Priskridus prie objekto rodyklių pagalba galima pasukioti kamerą. Taip pat labai reikalingos komandos yra apskridimas apie kosminį kūną. Galima skristi pagal vienodą platumą (\texttt{SHIFT + $\leftarrow / \rightarrow$}) arba ilgumą (\texttt{SHIFT + $\uparrow / \downarrow$}).
+
+\subsection*{Laiko kontroliavimas}
+ 
+Laikas yra kontroliuojamas mygtukais $\textbf{\texttt{J, K, L, !}}$
+
+\begin{itemize}
+\item \textbf{\texttt{J}} apgręžia laiko ėjimo kryptį.
+\item \textbf{\texttt{K}} sumažina laiko ėjimo tempą 10 kartų.
+\item \textbf{\texttt{L}} padidina laiko ėjimo tempą 10 kartų.
+\item \textbf{\texttt{!}} atstato laiką į esamą.
+\end{itemize}
+
+\subsection*{Papildomų dalykų rodymas}
+\begin{itemize}
+\item Planetų, palydovų, asteroidų ir kt. orbitų rodymas: \texttt{\textit{O}}.
+\item Rodomo vaizdo priartinimas (nekeičiant atstumo): \texttt{\textit{,}} ir \texttt{\textit{.}}.
+\item Žvaigždžių ryškumo reguliavimas: \texttt{\textit{[}} ir \texttt{\textit{]}}.
+\end{itemize}
+
+Vienas reikiamiausių dalykų, leidžiantis į kosmoso tyrinėjimus, yra planetų ir jų palydovų orbitų stebėjimas. Pagreitinę laiko tėkmę galime matyti ne tik kokiu greičiu sukasi planetos apie savo ašis, bet ir per kiek laiko planetos bei asteroidai apsisuka aplink Saulę, o palydovai aplink planetas.
+
+\subsection*{Kokių dar paslėptų galimybių galima atlikti su klaviatūra?}
+
+ \subsection{Pažintinės kosminės kelionės}
+ 
+Kaip atrodo tokios kelionės, galite pamatyti paspaudę komandą \texttt{\textit{D}}.
+
+\section*{Mokslinė medžiaga}
+\subsection*{Ką galima sužinoti per kosmines keliones.}
+Keletas pradinių faktų:
+\begin{itemize}
+\item Planetos įvairaus dydžio orbitomis skrieja apie Saulę;
+\item Palydovais laikomi dažniausiai už planetas mažesni kosminiai kūnai, skriejantys apie planetas, tačiau kartu su planetomis taip pat skrieja apie saulę;
+\item Dirbtiniu palydovu yra laikomas žmonių sukurtas kosminis aparatas, paleistas skrieti apie tam tikrą planetą;
+\item Asteroidais laikomi už planetas daug mažesni kosminiai kūnai, kaip ir planetos skriejantys apie Saulę. 
+\end{itemize}
+\subsection*{Ką mato kosminis aparatas?}
+
+\textit{Įsivaizduokime, kad jūsų skraidymo aparato kamera yra nukreipta 45 laipsnių kampu žemyn. Kiekvienam kameros kadrui į atskirą failą yra įrašoma informacija apie aparato lokaciją tuo monentu, kai kadras buvo paimtas. Išveskite formulę, apskaičiuojančią nuotraukos centro koordinates ant žemės, jei aparatas yra pakilęs aukščiu $H$ virš žemės taško $(X_c, Y_c, Z_c)$,  žinomas jo pasisukimas (\textbf{roll, pitch, yaw}) ir reikia remtis prielaida, kad Žemė yra plokščia.}.
+
+Tokį klausimą šiandien būtų galima išgirsti norint užimti matematinius modelius kuriančio programuotojo pareigas. Įvairiuose su skaičiavimais susijusiuose darbuose iš tiesų dažnai prireikia naudotis trijomis, o ne dvejomis koordinatėmis. Mokykloje šeštoje klasėje ir anksčiau yra mokoma naudotis tik dviejų koordinačių sistema. Štai pavyzdys, parodantis, kaip suprasti trijų koordinačių naudojimą:
+
+\incl{cartesia.png}{0.4} 
+
+Iš jo matyti, kad trys skraidančio aparato koordinatės yra $(2; 4; 3)$. 
+
+Kuo susijęs šis uždavinys su programa \textit{Celestia}? Apžiūrint tam tikrą kosminį kūną matome vaizdą, rodomą kosminio aparato kameros. Šio vaizdo neįmanoma nustatyti žinant vien tik aparato koordinates $(X_c, Y_c, Z_c)$, kuriose kosminis aparatas yra. Norint, kad programa apskaičiuotų vaizdą, matomą iš kosminio aparato priekio, turėtų būti žinomi ir pasisukimo kampai trejomis galimomis kryptimis. Jos yra pailiustruotos \goto{https://www.youtube.com/watch?v=pQ24NtnaLl8}{šioje nuorodoje}. Vadinasi, iš viso reikės šešių kameros vaizdą nusakančių kintamųjų: trijų koordinačių ir trijų pasisukimo kampų. Norint nustatyti reiškinį, nusakantį stebimo vaizdo centro koordinates reikėtų žinių apie \goto{https://en.wikipedia.org/wiki/Rotation_matrix}{pasisukimo matricas} ir jų taikymą (tai aukštosios matematikos tema). Netaikant matricų uždavinį spręsti mokykliškai būtų komplikuota, todėl jo čia neaptarsime.
+
+\subsection*{Kaip versti kosminių kūnų paviršiuje rodomą temperatūrą į Celsijaus laipsnius?}
+
+Šalčiausia visatoje galima temperatūra yra apytiksliai - $273^o$ pagal Celsijų arba $0^o$ pagal Kelviną. Mažesnės temperatūros neegzistuoja, nes $0^oK$ temperatūroje visi fizikiniai kūnai pasiekia būseną, kurioje jų atomai nejuda ir sustingtų laike. Visos kosmoso temperatūros yra rodomos Kelvino laipsniais. Norint juos paversti į Celsijaus laipsnius tereikia atimti 273.
+
+\subsection*{Kosminiai ilgio vienetai}
+
+\section*{Dažniausiai rūpimi klausimai}
+  
+\subsection*{Ar įmanoma stebėti juodąsias skyles?}
+
+Pabandę Celestijos paieškoje surasti keletą \goto{https://en.wikipedia.org/wiki/List_of_nearest_black_holes}{artimiausių} juodųjų skylių, pamatytume, kad paieška jų neranda. Vis dėlto juodosios skylės nuotrauka puikuojasi \goto{https://celestia.space/gallery.html}{Celestijos galerijoje}. 
+
+Geros naujienos: \goto{https://en.wikipedia.org/wiki/Celestia}{pagal Vikipediją} turėtų išeiti atnaujinimas. Už tai reikėtų dėkoti Celesti'jos vystytojų grupei - kosmoso entuziastams ir profesionalams, pasiryžusiems savanoriškai atskleisti savo įžvalgas ir pasidalinti jomis su likusiu pasauliu. Jie \goto{http://www.celestiamotherlode.net/}{aktyviai kuria} įvairius priedus standartinei versijai. 2017 - 2018 metais pasirodė didelės apimties \goto{http://www.celestiamotherlode.net/catalog/educational.php}{pamokų serija}, per kurią ne tik galite giliau susipažinti su Saulės ir ne tik Saulės sistemos objektais, bet ir nukeliauti laiku į Žemės priešistorę, peržvelgti žvaigždžių gyvavimo istoriją, stebėti Marso kolonizacijos imitaciją 26 amžiuje bei paieškoti gyvybės kitose planetose. Juodosios skylės taip pat įtrauktos!
+ 
+\subsection*{Ar įmanoma stebėti, kaip po 5mlrd. užges Saulė arba kaip Paukščių takas susidurs su kita galaktika?}
+ 
+Jei pabandytume daug kartų pagreitinti laiko tempą (daug kartų paspaudus \texttt{\textit{L}}), tai pamatytume, kad yra nustatyta viršutinė laiko riba - 2 mlrd. metų. Vadinasi, tokie stebėjimai negalimi. Be to  per keletą tūkstantmečių atstumai tarp žvaigždžių taip pat ateityje turėtų pastebimai pakisti, nors Celesti'joje tai nenumatyta. Kol kas standartinėje versijoje žvaigždės ir galaktikos išlieka nekintančios.
+
+\subsection*{Kokių dar paslėptų galimybių galima atlikti su klaviatūra?}
+
+\subsection*{Ką gražaus galima pamatyti per Celestia}
+
+Nuotraukų rinkinys \goto{https://celestia.space/gallery.html}{yra čia}.
+
+\subsection*{Kiek juodųjų skylių yra Paukščių Take?}
+
+Pabandykite užklausą: how many black holes are there in the Milky Way?
+
+\subsection*{Priklausomybė tarp atradimo metų, atstumo, dydžio}
+
+\end{document}
