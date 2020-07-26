@@ -9,6 +9,4 @@ Jei kamuoja klausimai apie visatą ir norisi labiau pažinti kosmosą, štai kel
 * [Celestia kompiuterinė programa](https://celestia.space/) ir [sutrumpinta instrukcija](Celestia/celestia.pdf), kaip ja naudotis.
 * [Straipsnelis apie dangų](http://www.konstanta.lt/2019/12/skaitant-dangaus-zenklus-mokslo-populiarinimo-konkursas/)
 
-Pabaigai - .gif iš mokslui pritaikytos Celestia versijos, kur parodytas Žemės susidūrimas su Tėja prieš 4,5 mlrd. metų. ![](Celestia\extend_celestia.gif)
-
-
+Pabaigai - .gif iš mokslui pritaikytos Celestia versijos, kur parodytas Žemės susidūrimas su Tėja prieš 4,5 mlrd. metų. ![](Celestia/extend_celestia.gif)

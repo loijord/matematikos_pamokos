@@ -13,7 +13,6 @@
 \usepackage{verbatim}
 \usepackage[unicode]{hyperref}
 \usepackage{amsmath,amsfonts,amssymb,amsthm}
-\usepackage{minted}
 \usepackage{cancel}
 \usepackage{framed}
 %\usepackage{mathptmx}
@@ -26,9 +25,6 @@
 \newcommand{\incl}[2]{\includegraphics[width=#2\textwidth]{#1}}
 \newcommand{\goto}[2]{\href{\detokenize{#1}}{\textcolor{blue}{#2}}}
 \newcommand{\say}[1]{\textbf{\textit{#1}}}
-%use python script:
-%lines='''B2002_5, B2002_4'''
-%print(', '.join([n[1:5]+'/'+n[0:5]+'/'+n+'.jpg' for n in lines.replace(" ", "").split(',')]))
 \begin{document}
 \section*{CELESTIA}
 \subsection*{Įžanginis žodis}
@@ -106,9 +102,11 @@ Laikas yra kontroliuojamas mygtukais $\textbf{\texttt{J, K, L, !}}$
 
 Vienas reikiamiausių dalykų, leidžiantis į kosmoso tyrinėjimus, yra planetų ir jų palydovų orbitų stebėjimas. Pagreitinę laiko tėkmę galime matyti ne tik kokiu greičiu sukasi planetos apie savo ašis, bet ir per kiek laiko planetos bei asteroidai apsisuka aplink Saulę, o palydovai aplink planetas.
 
-\subsection*{Kokių dar paslėptų galimybių galima atlikti su klaviatūra?}
+\subsection*{Kokių dar paslėptų valdymo komandų galima atlikti su klaviatūra?}
 
- \subsection{Pažintinės kosminės kelionės}
+Yra daug galimybių, kurias rasite \href{http://www.teachingchallenges.com/2009/10/tech-tips-tuesday.html}{šičia}. Šioje dokumentacijoje surašiau tik pagrindines valdymo komandas.
+
+ \subsection*{Pažintinės kosminės kelionės}
  
 Kaip atrodo tokios kelionės, galite pamatyti paspaudę komandą \texttt{\textit{D}}.
 
@@ -145,22 +143,28 @@ Kuo susijęs šis uždavinys su programa \textit{Celestia}? Apžiūrint tam tikr
 
 Pabandę Celestijos paieškoje surasti keletą \goto{https://en.wikipedia.org/wiki/List_of_nearest_black_holes}{artimiausių} juodųjų skylių, pamatytume, kad paieška jų neranda. Vis dėlto juodosios skylės nuotrauka puikuojasi \goto{https://celestia.space/gallery.html}{Celestijos galerijoje}. 
 
-Geros naujienos: \goto{https://en.wikipedia.org/wiki/Celestia}{pagal Vikipediją} turėtų išeiti atnaujinimas. Už tai reikėtų dėkoti Celesti'jos vystytojų grupei - kosmoso entuziastams ir profesionalams, pasiryžusiems savanoriškai atskleisti savo įžvalgas ir pasidalinti jomis su likusiu pasauliu. Jie \goto{http://www.celestiamotherlode.net/}{aktyviai kuria} įvairius priedus standartinei versijai. 2017 - 2018 metais pasirodė didelės apimties \goto{http://www.celestiamotherlode.net/catalog/educational.php}{pamokų serija}, per kurią ne tik galite giliau susipažinti su Saulės ir ne tik Saulės sistemos objektais, bet ir nukeliauti laiku į Žemės priešistorę, peržvelgti žvaigždžių gyvavimo istoriją, stebėti Marso kolonizacijos imitaciją 26 amžiuje bei paieškoti gyvybės kitose planetose. Juodosios skylės taip pat įtrauktos!
+Geros naujienos: \goto{https://en.wikipedia.org/wiki/Celestia}{pagal Vikipediją} turėtų išeiti atnaujinimas. Už tai reikėtų dėkoti Celesti'jos vystytojų grupė --- kosmoso entuziastai ir profesionalai, pasiryžę savanoriškai atskleisti savo įžvalgas ir pasidalinti jomis su likusiu pasauliu --- \goto{http://www.celestiamotherlode.net/}{aktyviai kuria} įvairius priedus standartinei versijai. 2017 - 2018 metais pasirodė didelės apimties \goto{http://www.celestiamotherlode.net/catalog/educational.php}{specializuota mokomoji versija}, per kurią ne tik galite giliau susipažinti su Saulės ir ne tik Saulės sistemos objektais, bet ir nukeliauti laiku į Žemės priešistorę, peržvelgti žvaigždžių gyvavimo istoriją, stebėti Marso kolonizacijos imitaciją 26 amžiuje bei paieškoti gyvybės kitose planetose. Juodosios skylės taip pat įtrauktos!
  
 \subsection*{Ar įmanoma stebėti, kaip po 5mlrd. užges Saulė arba kaip Paukščių takas susidurs su kita galaktika?}
  
-Jei pabandytume daug kartų pagreitinti laiko tempą (daug kartų paspaudus \texttt{\textit{L}}), tai pamatytume, kad yra nustatyta viršutinė laiko riba - 2 mlrd. metų. Vadinasi, tokie stebėjimai negalimi. Be to  per keletą tūkstantmečių atstumai tarp žvaigždžių taip pat ateityje turėtų pastebimai pakisti, nors Celesti'joje tai nenumatyta. Kol kas standartinėje versijoje žvaigždės ir galaktikos išlieka nekintančios.
+Jei pabandytume daug kartų pagreitinti laiko tempą (daug kartų paspaudus \texttt{\textit{L}}), tai pamatytume, kad yra nustatyta viršutinė laiko riba - 2 mlrd. metų. Vadinasi, tokie stebėjimai negalimi. Be to  per keletą tūkstantmečių atstumai tarp žvaigždžių taip pat ateityje turėtų pastebimai pakisti, nors Celesti'joje tai nenumatyta (standartinėje versijoje žvaigždės ir galaktikos išlieka nekintančios). Tačiau Saulės sistemos baigtį galima pamatyti \goto{http://www.celestiamotherlode.net/catalog/educational.php}{specializuotoje mokomojoje versijoje}.
 
-\subsection*{Kokių dar paslėptų galimybių galima atlikti su klaviatūra?}
-
-\subsection*{Ką gražaus galima pamatyti per Celestia}
-
+\subsection*{Ką gražaus galima pamatyti per Celestia?}
 Nuotraukų rinkinys \goto{https://celestia.space/gallery.html}{yra čia}.
 
 \subsection*{Kiek juodųjų skylių yra Paukščių Take?}
 
 Pabandykite užklausą: how many black holes are there in the Milky Way?
 
-\subsection*{Priklausomybė tarp atradimo metų, atstumo, dydžio}
+\section*{Kaip įdiegti specializuotą mokomąją versiją?}
 
+Reikėtų sekti instrukcijas, parašytas \goto{http://www.celestiamotherlode.net/catalog/educational.php}{šioje nuorodoje}. Procesas susideda iš šių dalių:
+\begin{itemize}
+\item Iš pateiktos nuorodas parsisiųsti \textit{Celestia161-ED} failų archyvą ir jį išarchyvuoti.
+\item Išarchyvuotame failyne susirasti ir paleisti instaliavimo failą \textit{Celestia161-WIN\_setup.exe}
+\item Pasibaigus instaliacijai specializuota versija turėtų atsirasti direktorijoje \verb|C:\MyPrograms\Celestia161-ED|
+\item Kiekvienas naujas atsisiųstas archyvas (\textit{Activity1}, \textit{Activity2}...) iš mokomosios serijos siunčiamas ir skleidžiamas į taip pat į šią direktoriją. Aplankai, tokie kaip \textit{Educational-activities} ir \textit{Educational-extras}, kuriuose talpinami reikiami failai, susikuria savaime.
+\item Mokomoji medžiaga - tai .doc dokumentuose surašyta informacija kartu su nuorodomis į objektus, prieinamus su \textit{Celestia}. Šių dokumentų reiktų ieškoti \textit{Educational-activities} aplanke. Kosminės kelionės pradedamos atsidarius šiuos dokumentus ir spaudžiant vieną po kitos juose esančias nuorodas
+\end{itemize}
+Smagių kelionių!
 \end{document}
