@@ -14,5 +14,5 @@ Priprasti prie reiškinių su kintamaisiais pertvarkymų. Didžiausią dėmesį 
 * Namų darbams lieka uždaviniai su dauginimu.
 * Vėliau medžiagoje tikiuosi papildyti atvirkščio proceso nagrinėjimą (skaidymą dauginamaisiais) bei įtraukti pramoginę dalį: kaip matemagas Arthur Benjamin mintinai [pakėlė kvadratu penkiaženklį per minutę](http://www.youtube.com/watch?v=M4vqr3_ROIk&t=13m55s)
 * Pamėginsiu įkelti taip pat uždavinių pavyzdžių iš Universal Math Solver.
-* Taip pat pamginsiu įdomumui pavaizduoti daugybą penkiose dimensijose (papildomų subtilybių poskyryje)
+* Taip pat pamėginsiu įdomumui pavaizduoti daugybą penkiose dimensijose (papildomų subtilybių poskyryje)
 
