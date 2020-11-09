@@ -1,0 +1,330 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[L7x]{fontenc}
+\usepackage[lithuanian]{babel}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage[top=2cm, bottom=2cm, left=1.5cm, right=1.5cm, footskip=1cm, a4paper]{geometry}
+\usepackage{indentfirst}
+\usepackage{framed}
+\usepackage{tikz}
+\usepackage{listofitems}
+\usepackage{xcolor}
+\usepackage{verbatim}
+\usepackage[unicode]{hyperref}
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{cancel}
+\usepackage{framed}
+\usepackage{calc}
+\usepackage{tasks}
+\usepackage{colortbl}
+\newcommand{\high}[1]{\cellcolor{orange!80!white}{#1}}
+\newcommand{\midd}[1]{\cellcolor{green!50!white}{#1}}
+\newcommand{\low}[1]{\cellcolor{blue!50!white}{#1}}
+\begin{document}
+\section{Dvinarių sandauga $\Rightarrow$ trinaris}
+\subsection{Visa ko pradžia - stačiakampio sudėliojimas}
+Įsivaizduokime dvi atkarpas. Tegu viena jų yra sudaryta iš ruožų $a$ ir $b$, o kita iš ruožų $c$ ir $d$. Tuomet kyla klausimas: kam lygus stačiakampio, kurio gretimos kraštinės yra tokios atkarpos, plotas? Sprendimą galima pailiustruoti:
+
+\begin{center}
+\begin{tabular}{c||c|c}
+ & a & b \\ \hline \hline
+ c & ac & bc\\ \hline 
+ d & ad &bd
+\end{tabular}
+\end{center}
+
+Stačiakampio plotas lygus $(a + b)(c + d)$, nes žinome, kad jis randamas dauginant kraštinių ilgius. Iš kitos pusės, jis yra lygus į langelius įrašytų plotų sumai. Vadinasi $(a + b)(c + d) = ac + bc + ad + bd$. Tai yra vienas paprasčiausių ir aiškiausių būdų atlikti dvinarių daugybai.
+\subsection{Kaip sudauginti du dvinarius}
+Panašiai galime atlikti daugybą $(2x+3)(x-5)$:
+
+\begin{center}
+\begin{tabular}{c||c|c}
+ & $2x$ & $3$ \\ \hline \hline
+ $x$ & \high{$2x^2$} & \midd{$3x$}\\ \hline 
+ $-5$ & \midd{$-10x$} & \low{$-15$}
+\end{tabular}
+\end{center}
+
+\subsection{Kaip sudauginti du dviženklius skaičius}
+Nors mokyklose dviženklius skaičius dauginame stulpeliu, tačiau galime sugalvoti, kaip juos dauginti ir naudojant lenteles.
+Kaip pavyzdį imkime veiksmą $46\times 23$:
+$$46\times 23 = (40 + 6)\times (20 + 3) = \dots$$
+\begin{center}
+\begin{tabular}{c||c|c}
+ & 40 & 6 \\ \hline \hline
+ 20 & 800 & 120\\ \hline 
+ 3 & 120 & 18
+\end{tabular}
+\end{center}
+Užpildžius lentelę jau galime pratęsti lygybę:
+$$46\times 23 = (40 + 6)\times (20 + 3) = 800+120+120+18$$
+
+\subsection{Greitosios daugybos formulių paaiškinimas}
+Jos yra mokomos aštuntoje klasėje. Kaip sako pavadinimas, jų prasmė yra daugyba, kurią galima atlikti greičiau, ir paprasčiau. Kada ją galime atlikti? Imkime 4 skaičius $a$, $b$, $c$ ir $d$. Jei tarp jų yra du vienodi, o kiti du vienodi arba skiriasi tik ženklais, daugybą galime pagreitinti. Parodysime tris pagrindinius tokius greitosios daugybos atvejus:
+\newline\newline
+\begin{minipage}[b]{0.3\linewidth}
+\begin{center}
+\begin{tabular}{c||c|c}
+ & $a$ & $b$ \\ \hline \hline
+ $a$ & \high{$a^2$} & \midd{$ab$}\\ \hline 
+ $-b$ &  \midd{$-ab$}  & \low{$-b^2$}
+\end{tabular}
+\newline\newline\newline
+$(a+b)\times(a-b) = a^2 - b^2$
+\end{center}
+\end{minipage}
+\begin{minipage}[b]{0.3\linewidth}
+\begin{center}
+\begin{tabular}{c||c|c}
+ & $a$ & $b$ \\ \hline \hline
+ $a$ & \high{$a^2$} & \midd{$ab$}\\ \hline 
+ $b$ &  \midd{$ab$}  & \low{$b^2$}
+\end{tabular}
+\newline\newline\newline
+$(a+b)\times(a+b) = a^2 +2ab+b^2$
+\end{center}
+\end{minipage}
+\begin{minipage}[b]{0.3\linewidth}
+\begin{center}
+\begin{tabular}{c||c|c}
+ & $a$ & $-b$ \\ \hline \hline
+ $a$ & \high{$a^2$} & \midd{$-ab$}\\ \hline 
+ $-b$ &  \midd{$-ab$}  & \low{$b^2$}
+\end{tabular}
+\newline\newline\newline
+$(a-b)\times(a-b) = a^2 - 2ab+b^2$
+\end{center}
+\end{minipage}
+\newline\newline
+Šios daugybos atliekamos greičiau, nes žinome, kad žaliai pažymėti panašieji nariai gali būti sutraukti arba suprastinti. Po kiekviena daugyba matome ją atitinkančią formulę.
+
+\subsection{Greitosios daugybos formulių pritaikymas su daugianariais}
+Anksčiau sakėme, kad jei tarp keturių skaičių galime rasti dvi poras panašių skaičių (t.y. vienodų arba besiskiriančių tik ženklais), tai verta taikyti greitosios daugybos formules. Remdamiesi turėtomis 3 taisyklėmis galime pateikti 3 pavyzdžius (vietoj $a$ paimsime $3x$, o vietoj $b$ paimsime 2).
+\newline\newline
+\begin{minipage}[b]{0.3\linewidth}
+\begin{center}
+\begin{tabular}{c||c|c}
+ & $3x$ & $2$ \\ \hline \hline
+ $3x$ & \high{$9x^2$} & \midd{$6x$}\\ \hline 
+ $-2$ &  \midd{$-6x$}  & \low{$-4$}
+\end{tabular}
+\newline\newline\newline
+$(3x+2)(3x-2) = 9x^2-4$
+\end{center}
+\end{minipage}
+\begin{minipage}[b]{0.3\linewidth}
+\begin{center}
+\begin{tabular}{c||c|c}
+& $3x$ & $2$ \\ \hline \hline
+ $3x$ & \high{$9x^2$} & \midd{$6x$}\\ \hline 
+ $2$ &  \midd{$6x$}  & \low{$4$}
+\end{tabular}
+\newline\newline\newline
+$(3x+2)(3x+2) = 9x^2+12x+4$
+\end{center}
+\end{minipage}
+\begin{minipage}[b]{0.3\linewidth}
+\begin{center}
+\begin{tabular}{c||c|c}
+& $3x$ & $-2$ \\ \hline \hline
+ $3x$ & \high{$9x^2$} & \midd{$-6x$}\\ \hline 
+ $-2$ &  \midd{$-6x$}  & \low{$4$}
+\end{tabular}
+\newline\newline\newline
+$(3x-2)(3x-2) = 9x^2-12x+4$
+\end{center}
+\end{minipage}
+\subsection{Greitosios daugybos formulių pritaikymas su dviženklių skaičių daugyba}
+Analogiškai galime samprotauti ir kuomet dauginame du dviženklius skaičius:
+\newline\newline
+\begin{minipage}[b]{0.3\linewidth}
+\begin{center}
+\begin{tabular}{c||c|c}
+ & $40$ & $3$ \\ \hline \hline
+ $40$ & \high{$1600$} & \midd{$120$}\\ \hline 
+ $-3$ &  \midd{$-120$}  & \low{$-9$}
+\end{tabular}
+\newline\newline\newline
+$43 \times 37 = 1600 - 9 = 1591$
+\end{center}
+\end{minipage}
+\begin{minipage}[b]{0.3\linewidth}
+\begin{center}
+\begin{tabular}{c||c|c}
+ & $40$ & $3$ \\ \hline \hline
+ $40$ & \high{$1600$} & \midd{$120$}\\ \hline 
+ $3$ &  \midd{$120$}  & \low{$9$}
+\end{tabular}
+\newline\newline\newline
+$43 \times 43 = 1600 + 240 + 9 = 1849$
+\end{center}
+\end{minipage}
+\begin{minipage}[b]{0.3\linewidth}
+\begin{center}
+\begin{tabular}{c||c|c}
+ & $40$ & $-3$ \\ \hline \hline
+ $40$ & \high{$1600$} & \midd{$-120$}\\ \hline 
+ $-3$ &  \midd{$-120$}  & \low{$9$}
+\end{tabular}
+\newline\newline\newline
+$37 \times 37 = 1600 - 240 + 9 = 1369$
+\end{center}
+\end{minipage}
+
+Atkreipkite dėmesį, kad čia visi skirtingomis spalvomis žymimi nariai yra panašieji (panašiais nariais laikomi vienanariai, turintys tą pačią raidinę dalį, o čia raidinių dalių nėra). Skirtingos spalvos čia galėtų atititikti skirtingus skyrius (vienetus, dešimtis, šimtus).
+\subsection{Kokias dar žinome greitesnes daugybas?}
+Dar praleidome vieną paprastesnį, bet ne mažiau svarbų dauginimo būdą. Jis turėtų būti daug labiau žinomas. Pateiksiu keletą pavyzdžių, kaip jis veikia.
+\newline\newline
+\begin{minipage}[b]{0.3\linewidth}
+\begin{center}
+\begin{tabular}{c||c|c}
+ & $40$ & $3$ \\ \hline \hline
+ $40$ & \high{$1600$} & \midd{$120$}\\ \hline 
+\end{tabular}
+\newline\newline\newline
+$40 \times 43 = 40 \times (40 + 3)= 1600 + 120 = 1720$
+\end{center}
+\end{minipage}
+\begin{minipage}[b]{0.3\linewidth}
+\begin{center}
+\begin{tabular}{c||c|c}
+ & $4x$ & $-3$ \\ \hline \hline
+ $5$ & \high{$20x$} & \midd{$-15$}\\ \hline 
+\end{tabular}
+\newline\newline\newline
+$5 \times (4x - 3) = 20x - 15$
+\end{center}
+\end{minipage}
+\begin{minipage}[b]{0.3\linewidth}
+\begin{center}
+\begin{tabular}{c||c|c}
+ & $4x$ & $-3$ \\ \hline \hline
+ $2x$ & \high{$8x^2$} & \midd{$-6x$}\\ \hline 
+\end{tabular}
+\newline\newline\newline
+$2x \times (4x - 3) = 8x^2 - 6x$
+\end{center}
+\end{minipage}
+\section{Pusiaukelė}
+Apžvelgėme pagrindines mokyklines dauginimo taisykles. Svarbiausia bus prisiminti, kad reikia mokėti tiek greitosios daugybos formules, tiek iškėlimą prieš skliaustus. Kodėl tai tik pusiaukelė? Jei sandaugą siejame su plotu, tai daugybą galėtume sieti su ploto išreiškimu mažesnių plotų suma, kurie kartais susijungia (jei atitinka panašius narius). Tačiau ardyti dėlionę yra daug lengviau, nei sudėlioti. Likusioje dalyje reikės išmokti dėliojimą. Palyginimui:
+\begin{itemize}
+\item Dabar rašėme: $(2x-3)(x+3) = 2x^2 +3x - 9$
+\item Po to reikės pastebėti, kad: $2x^2 +3x - 9 = (2x-3)(2x+3)$
+\end{itemize}
+\section{Dėliojimas}
+\subsection{Užuominos}
+Geresniam įsivaizdavimui, ką laikome dėliojimu, siūlome pažiūrėti į reiškinį: $x^2+2x-3$. Ar galėtumėte pasakyti, kokius narius reiktų sudauginti, kad sudėlioję anksčiau rodytus stačiakampius, gautume šį stačiakampį? Atsakymą rasite kitame puslapyje. O kol kas, prieš pradėdami mokytis, kaip tokią užduotį spręstų pagal vadovėlį, siūlome pamėginti sprendimą atrasti remiantis nagrinėjant panašų pavyzdį:
+\newline\newline
+\begin{minipage}[b]{0.3\linewidth}
+\begin{center}
+\begin{tabular}{c||c|c}
+& $x$ & $-4$ \\ \hline \hline
+ $x$ & \high{$x^2$} & \midd{$-4x$}\\ \hline 
+ $3$ &  \midd{$3x$}  & \low{$-12$}
+\end{tabular}
+$(x-4)(x+3)=x^2-1x+12$
+\end{center}
+\end{minipage}
+\begin{minipage}[b]{0.3\linewidth}
+\begin{center}
+\begin{tabular}{c||c|c}
+& $x$ & $-4$ \\ \hline \hline
+ $x$ & \high{\phantom{$x^2$}} & \midd{\phantom{$-4x$}}\\ \hline 
+ $3$ &  \midd{\phantom{$3x$}}  & \low{\phantom{$-12$}}
+\end{tabular}
+$(x-4)(x+3)=x^2-1x+12$
+\end{center}
+\end{minipage}
+\vskip 12pt
+Šiame pavyzdyje kvadratinis trinaris $x^2-1x-12$ užrašytas ne taip, kaip įprasta. Įprastai reikėtų rašyti $x^2-x-12$. Dešinėje lentelėje į stačiakampius rašomi vienanariai buvo uždengti ir liko parašyti tik skaičiai $x$, $-4$, $x$, $3$. Ar galite atsakyti į šiuos klausimus:
+\begin{itemize}
+\item Kaip buvo gautas narys $x^2$?
+\item Kaip buvo gautas narys $-1x$?
+\item Kaip buvo gautas narys $-12$?
+\item Ką reiktų atlikti norint gauti koeficientą $-1$ naudojant vien parašytus skaičius?
+\item Ką reiktų atlikti norint gauti koeficientą $-12$ naudojant vien parašytus skaičius?
+\end{itemize} 
+\newpage 
+\subsection{Pilno kvadratinio reiškinio skaidymai}
+Štai čia pateiksime ankstesnio skyrelio uždavinio sprendimą. Jį skaitydami būtinai panagrinėkite ir svarbiausias jo mintis, parašytas dešinėje.
+\begin{framed}
+\begin{minipage}[b]{0.35\linewidth}
+\begin{center}
+\begin{tabular}{c||c|c}
+& $x$ & $-1$ \\ \hline \hline
+ $x$ & \high{$x^2$} & \midd{$-x$}\\ \hline 
+ $3$ &  \midd{$3x$}  & \low{$-3$}
+\end{tabular}
+\newline\newline\newline
+$x^2+2x-3 = (x-1)(x+3)$
+\end{center}
+\end{minipage}
+\begin{minipage}[b]{0.6\linewidth}
+
+\begin{itemize}
+\item Kaip pačiam sugalvoti, kad dėmenys yra būtent -1 ir 3? 
+\item Jei ankstesnio skyrelio klausimus išsinagrinėti pavyko sėkmingai, tai turėtų pasimatyti mintis, kad reikėjo tik surasti skaičius, kurių suma yra $2$, o sandauga $-3$. 
+\item Įsiminus, kaip skaičiai $-1$ ir $3$ atsiranda ir pasipraktikavę su kitais kvadratiniais reiškiniais, išmoksime juos skaidyti daug greičiau, nei tai daro dauguma moksleivių.
+\end{itemize}
+\end{minipage}
+\end{framed}
+Pasipraktikuokime su kitu reiškiniu: $x^2-8x+15$. Pagrindinis darbas, norint šį reiškinį išskaidyti, yra sugalvoti du skaičius, kurių sandauga $15$, o suma $-8$. Jei sugalvoti yra sunkoka, visada siūloma pradėti nuo nagrinėjimo, kokių sveikųjų skaičių sandauga yra 15. Sprendimą galite rasti WolframAlpha skaičiuoklėje \href{https://www.wolframalpha.com/input/?i=x\%5E2-8x\%2B15}{įvedę} $x^2 - 8x + 15$
+
+\subsection{Galimybių ribos}
+Savo galimybes galite išbandyti su šiais trinariais:
+\begin{tasks}(4)
+\task $x^2+x-2$
+\task $x^2+5x-6$
+\task $x^2-12x+27$
+\task $x^2-6x-16$
+\task $x^2-7x-18$
+\task $x^2-x-12$
+\task $x^2+10x+21$
+\task $x^2-13x+30$
+\task $x^2-16x+60$
+\task $x^2-7x+10$
+\task $x^2+x-42$
+\task $^*x^2+x-43$
+\end{tasks}
+Taip pat turėtumėte būti tikri, kad galite atlikti skaidymus paprastesniais atvejais, kai iš pilno kvadratinio trinario vienas narys yra pašalintas:
+\begin{tasks}(4)
+\task $x^2+x$
+\task $x^2-16$
+\task $x^2-12x$
+\task $x^2-36$
+\task $x^2-7x$
+\task $x^2-1$
+\task $2x^2+10x$
+\task $-13x^2-13x$
+\task $2x^2-50$
+\task $4x^2-16$
+\task $^*x^2-17$
+\task $^*x^2+4$
+\end{tasks}
+\subsection{Sudėtingesni atvejai su dviem nariais}
+Aptarsime tik uždavinius su žvaigždutėmis, nes jiems spręsti reiktų čia dar nepaminėtų žinių. 
+
+Reiškinį $x^2-17$ galime išskaidyti pritaikant formulę $a^2-b^2 = (a-b)(a+b)$, kur $a=x$ ir $b=\sqrt{17}$. Tuomet turime: $x^2-17 = (x-\sqrt{17})(x+\sqrt{17})$.
+
+Reiškinys $^*x^2+4$ yra neišskaidomas, nes negalima sugalvoti dviejų skaičių, kurių sandauga yra 4, o suma lygi 0.
+
+Kvadratinio reiškinio neišsiskaidymas yra dažnas atvejis. Įdomus faktas: jei kvadratiniame trinaryje $ax^2+bx+c$ skaičiai $a$, $b$, $c$ yra atsitiktinai parinkti teigiami skaičiai, tai vidutiniškai tik kas aštuntas toks trinaris bus išskaidomas. Tačiau kvadratinių reiškinių, kurie turi tik du narius ir yra neišskaidomi, nėra tiek daug: visi jie yra formos $ax^2+b$, kur $a,b>0$. Likę neišskaidomi reiškiniai - tai tam tikra dalis pilnų kvadratinių trinarių formos $ax^2+bx+c$.
+\subsection{Iššūkis su kvadratiniais trinariais}
+Natūraliai kyla klausimas, kurie kvadratiniai trinariai $ax^2+bx+c$ yra išskaidomi ir kurie ne. Į šį klausimą atsakoma devintoje klasėje: jei diskriminantu vadinamas skaičius $D=b^2-4ac$ yra neneigiamas, tai reiškinį išskaidyti galėsime. Tačiau net ir tarp egzistuojančių išskaidymo būdų galime rasti pirmąsyk juos matantiems egzotiškai atrodančių: $$x^2-x-1 = \left(x - \frac{1-\sqrt{5}}{2}\right)\left(x - \frac{1+\sqrt{5}}{2}\right)$$
+Palyginimui:
+ $$x^2-x-2 = (x+1)(x-2)$$
+ $$x^2-x+1 \text{ neišsiskaido, nes }D=1^2 - 4\times 1\times 1 <0$$
+ \subsection{Naujienos}
+ 2019m. gale pasirodė \href{https://www.poshenloh.com/quadraticdetail}{straipsnis}, kuriame siūloma trinarius skaidyti ne pagal įprastinį 9kl. mokomą diskriminanto skaičiavimą, o remiantis anksčiau paminėtu teiginiu:
+ $$\text{Jei egzistuoja }x^2+ax+b \text{ išskaidymas } (x+p)(x+q)\text{, tai }\begin{cases} p+q=a \\ pq=b\end{cases}$$
+Pagrindinė straipsnio idėja yra pakeisti skaičių $p$ ir $q$ spėliojimą, kad gautųsi nurodyta jų suma ir sandauga, į tam tikro skaičiaus $z$ ieškojimą. Šiuo skaičiumi yra žymima, kiek $p$ ir $q$ yra nukrypę nuo savo vidurkio. Kai $p$ ir $q$ nėra sveikieji skaičiai, spėliojimas nepadeda, o nuokrypio $z$ ieškojimas būtų veiksmingas visuomet. Tai pailiustruosime pamėgindami išskaidyti trinarį $x^2+x-43$. 
+
+\begin{itemize}
+\item Tegu $x^2+x-43 = (x+p)(x+q)$. Tuomet $p+q=1$, vadinasi $p$ ir $q$ vidurkis lygus $0,5$.
+\item Žinome, kad $pq=-43$. Pažymėkime $z$ nuokrypį nuo $p$ ir $q$ vidurkio. Tada, tarę, kad $p\le q$, galime tvirtinti, kad $p=0,5-z$ ir $q=0,5+z$. Vadinasi, $(0,5-z)(0,5+z)=-43$
+\item Spręsime gautą lygtį: $(0,5-z)(0,5+z)=-43 \Leftrightarrow 0,5^2 - z^2 = -43 \Leftrightarrow z^2 = 43,25 \Leftrightarrow z = \sqrt{43,25}$
+\item Radome, kad nuokrypis nuo $p$ ir $q$ vidurkio lygus $\sqrt{43,25}$, o vidurkis lygus $0,5$. Vadinasi $p$ ir $q$ yra lygūs $0,5 - \sqrt{43,25}$ ir $0,5 + \sqrt{43,25}$.
+\item $x^2+x-43 = (x+0,5-\sqrt{43,25})(x+0,5+\sqrt{43,25})$
+\end{itemize}
+\end{document}
