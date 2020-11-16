@@ -6,7 +6,7 @@ Priprasti prie reiškinių su kintamaisiais pertvarkymų. Didžiausią dėmesį 
 
 * Pastudijuoti, kur pritaikomas daugianarių dauginimas ir kaip atliekamas atvirkščias procesas: gautos sandaugos išskaidymas dauginamaisiais. Reikės remtis [šia medžiaga](komplektas.pdf)
 * Darsyk atlikti pernai metais darytas [užduotis](dauginimas.pdf) su daugianarių dauginimu. 
-* Po daugianarių dauginimo toliau praktikuotis su uždaviniais iš [Universal Math Solver](https://www.universalmathsolver.com)
+* Po daugianarių dauginimo toliau praktikuotis su [uždaviniais](UMS_uždaviniai.ipynb) iš [Universal Math Solver](https://www.universalmathsolver.com)
 * [Papildomas skyrelis](matemagic_squaring.pdf): kaip Benjaminas [pakėlė kvadratu](http://www.youtube.com/watch?v=M4vqr3_ROIk&t=13m55s) penkiaženklį per minutę?
 
 ### Kaip sekėsi
