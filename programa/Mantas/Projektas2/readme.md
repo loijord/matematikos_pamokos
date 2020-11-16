@@ -17,4 +17,5 @@ Priprasti prie reiškinių su kintamaisiais pertvarkymų. Didžiausią dėmesį 
 * Aštuntąją lapkričio 8d. pamoką liko tie patys namų darbai: pratimai su dauginimu (dauginimas.pdf). Taip pat papildoma medžiaga (komplektas.pdf). Mantas paminėjo, kad po praeitos pamokos nerado nuorodos į šį projektą.
 * Kitą dieną po pamokos pridėjau papildomą skyrelį apie matemagą Arthur Benjamin (matemagic_squaring.ipynb)
 * Taip pat papildžiau atvirkščio proceso nagrinėjimą (skaidymą dauginamaisiais).
-* Ateityje išrinksiu uždavinius iš Universal Math Solver su įvairių reiškinių prastinimais ir lygčių sprendimu.
+* Taip pat išrinkau uždavinius iš Universal Math Solver su įvairių reiškinių prastinimais ir lygčių sprendimu.
+* Lapkričio 15d. paskyrėme pratimų su dauginimais ir teorinės medžiagos aptarimui
