@@ -1,0 +1,340 @@
+{
+    "1": {
+        "Sąlyga": "Kuris iš pateiktų eskizų yra funkcijos grafiko $y=2^x$ eskizas? ![](vbe\\VBE2015_1.PNG)",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Funkcijos",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "Reikia rinktis tokį grafiką, kuriame pastebimi tokie dėsningumai: funkcijos reikšmės teigiamos ir kyla laipsniškai, kai argumentas didėja kas 1"
+        ]
+    },
+    "2": {
+        "Sąlyga": "Sekos bendrasis narys užrašomas formule $a_n=3n-1$ $(n=1,2,3,\\dots)$. Kam lygus jos penktasis narys $a_5$?",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Funkcijos",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "Reikia atlikti formulėje įstatymą $n \\to 5$ ir turėsime $a_5 = 14$"
+        ]
+    },
+    "3": {
+        "Sąlyga": " Diagramoje pavaizduotas šeimos vieno mėnesio visų išlaidų paskirstymas procentais. Tą mėnesį **maistui** šeima išleido 420 eurų. Kiek eurų šeima išleido rūbams? ![](vbe\\VBE2015_3.PNG)",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Palūkanos ir procentai",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "Sudarome proporciją: $\\boxed{\\begin{array}{rcl} 420 & - & 30\\% \\\\ ? & - & 25\\% \\end{array}}$",
+            "Ją išsprendę turėtume gauti 350 eurų"
+        ]
+    },
+    "4": {
+        "Sąlyga": "Kam lygi imties 5;14;11;6;5;10;12 mediana?",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Statistika",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "Surikiuojame duomenis: 5,5,6,10,11,12,14",
+            "Mediana bus vidurinysis duomuo 10"
+        ]
+    },
+    "5": {
+        "Sąlyga": "Vandens čiaupo pajėgumas yra toks, kad stačiakampio gretasienio formos baseinas, kurio matmenys yra $a$, $b$ ir $c$, pripildomas per 1 valandą. Per kiek laiko iš to paties vandens čiaupo, veikiančio tokiu pačiu pajėgumu, galima būtų pripildyti stačiakampio gretasienio formos $2a$, $2b$ ir $2c$ matmenų baseiną?",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Reiškinių sudarymas",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "Atsakymas bus tiek kartų didesnis, kiek didesnis naujo kubo tūris",
+            "Naujo kubo tūris: $2a\\times 2b \\times 2c=8abc$",
+            "Seno kubo tūris: $a\\times b \\times c=abc$",
+            "Atsakymas 8 val"
+        ]
+    },
+    "6": {
+        "Sąlyga": "Išspręskite lygtį $(x+2011)(x+2013)(x+2014)=(x+2013)(x+2014)(x+2015)$",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Elementariosios matematikos gebėjimai",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "$(x+2011)(x+2013)(x+2014)-(x+2013)(x+2014)(x+2015)=0$",
+            "$\\big((x+2011) - (x+2015)\\big)(x+2013)(x+2014)=0$",
+            "$-4(x+2013)(x+2014)=0$",
+            "$x=-2013$ arba $x=-2014$"
+        ]
+    },
+    "7": {
+        "Sąlyga": "Su kuria $x$ reikšme vektoriai $\\overrightarrow{a}=(x; 3)$ ir $\\overrightarrow{b}=(-2; 6)$ yra kolinearūs?",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Vektoriai",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "$x/3 = -2/6$",
+            "$x=-1$"
+        ]
+    },
+    "8": {
+        "Sąlyga": "Paveiksle pavaizduotas kubas $ABCDA_1B_1C_1D_1$ Raskite kampo tarp tiesių, kuriose yra kubo sienų įstrižainės $A_1B$ ir $B_1C$ didumą. ![](vbe\\VBE2015_8.png)",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Erdvės geometrija",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "Kampas tarp $A_1B$ ir $B_1C$ lygus kampui tarp $A_1B$ ir $A_1D$",
+            "Kampas tarp $A_1B$ ir $A_1D$ priklauso trikampiui $A_1DB$",
+            "Visos trikampio kraštinės lygios",
+            "Kampas lygus $60^o$"
+        ]
+    },
+    "9": {
+        "Sąlyga": "Seifo kodą turi sudaryti trys skirtingi skaitmenys, užrašyti didėjimo tvarka. Kiek tokių skirtingų kodų galima sudaryti?",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Kombinatorika",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "Klausimą galima perfrazuoti: keliais būdais galima išsirinkti tris skirtingus skaitmenis iš 10",
+            "Atsakymas: $C^3_{10}=\\frac{10\\cdot 9\\cdot 8}{3 \\cdot 2\\cdot 1}=120$"
+        ]
+    },
+    "10": {
+        "Sąlyga": "Žinoma, kad funkcija $f(x)$ yra lyginė, o $g(x)$ - nelyginė. Apskaičiuokite $g(f(-a))+f(g(b))$, jei $f(a)=-b$, $g(-b)=a$, kur $a\\neq 0$, $b\\neq 0$",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Kombinatorika",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "$f(-a)=f(a)=-b$ pagal lyginės funkcijos apibrėžimą",
+            "$g(b)=g(-b)=a$ pagal nelyginės funkcijos apibrėžimą",
+            "$g(f(-a))+f(g(b))=g(-b)+f(a)$ pagal gautus teiginius",
+            "$g(-b)+f(a) = a-b$ pagal sąlygą"
+        ]
+    },
+    "11": {
+        "Sąlyga": "$A=[-2; 4)$ ir $B=(-6;3)$ sankirtą $A\\bigcap B$",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Funkcijos",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "Intervalus geriausia žymėti iš abiejų pusių skaičių ašyje",
+            "Randame, kad jų bendra zona yra $(-6; 4)$"
+        ]
+    },
+    "12a": {
+        "Sąlyga": "Išspręskite lygtį $5^{2x}=125$",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Laipsniai ir šaknys",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "$5^{2x}=125$",
+            "Remiantis tapatybe $5^{3}=125$ iš ankstesnės lygties gausime $2x=3$",
+            "$x=1.5$"
+        ]
+    },
+    "12b": {
+        "Sąlyga": "Išspręskite lygtį $|x-2|=5$",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Elementariosios matematikos gebėjimai",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "$|x-2|=5$",
+            "$x-2=5$ arba $x-2=-5$",
+            "Iš čia $x=7$ arba $x=-3$"
+        ]
+    },
+    "13a": {
+        "Sąlyga": "Taškas $C$ priklauso apskritimui, kurio centras yra taškas $O$. Iš taško $M$, esančio apskritimo išorėje, nubrėžtos dvi tiesės, liečiančios apskritimą taškuose $A$ ir $B$, $\\angle AOB=80^o$.  Apskaičiukite $\\angle ACB$ didumą ![](vbe\\VBE2015_13.PNG)",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Geometrija",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "Kampas, įbrėžtas į apskritimą iškerta dvigubai mažesnį lanką, nei atitinkamas kampas, einantis iš skersmens",
+            "Atsakymas $40^o$"
+        ]
+    },
+    "13b": {
+        "Sąlyga": "Taškas $C$ priklauso apskritimui, kurio centras yra taškas $O$. Iš taško $M$, esančio apskritimo išorėje, nubrėžtos dvi tiesės, liečiančios apskritimą taškuose $A$ ir $B$, $\\angle AOB=80^o$.  Apskaičiukite $\\angle AMB$ didumą ![](vbe\\VBE2015_13.PNG)",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Geometrija",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "$OA$ ir $OB$ yra statmenos pavaizduotoms liestinėms",
+            "Keturkampio $AOBM$ kampų suma lygi $360^o$",
+            "Vadinasi, $\\angle AMB = 360^o - 90^o - 90^o - 80^o=100^o$"
+        ]
+    },
+    "14": {
+        "Sąlyga": "Ritinio pagrindo apskritimo ilgis lygus 30, o ritinio aukštinės ilgis lygus 6. Apskaičiuokite šio ritinio šoninio paviršiaus plotą. ![](vbe\\VBE2015_14.PNG)",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Erdvės geometrija",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "Reikėtų įsivaizduoti, kokią figūrą atitinka šoninis paviršius ritinio išklotinėje",
+            "Tai stačiakampis su kraštinėmis 30 ir 6",
+            "Jo plotas 180"
+        ]
+    },
+    "15a": {
+        "Sąlyga": "Lentelėje pateikta informacija apie funkcijos $f(x)$ išvestinės $f(x)$ reikšmes. Užrašykite funkcijos reikšmių didėjimo intervalą (-us)",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Išvestinės",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "Nėra"
+        ]
+    },
+    "15b": {
+        "Sąlyga": "Lentelėje pateikta informacija apie funkcijos $f(x)$ išvestinės $f(x)$ reikšmes. Užrašykite funkcijos minimumo tašką.",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Išvestinės",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "Nėra"
+        ]
+    },
+    "16": {
+        "Sąlyga": "Keturkampis $ABCD$ yra rombas. Raskite vektorių, lygų vektorių sumai $\\overrightarrow{AB}+\\overrightarrow{AD}$ ![](vbe\\VBE2015_16.PNG)",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Vektoriai",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "Nėra"
+        ]
+    },
+    "16a": {
+        "Sąlyga": "Keturkampis $ABCD$ yra rombas. Raskite vektorių, lygų vektorių sumai $\\overrightarrow{AB}+\\overrightarrow{AD}$ ![](vbe\\VBE2015_16.PNG)",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Vektoriai",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "Nėra"
+        ]
+    },
+    "16b": {
+        "Sąlyga": "Keturkampis $ABCD$ yra rombas. Raskite vektorių skaliarinę sandaugą $\\overrightarrow{BD}\\cdot \\overrightarrow{AC}$ ![](vbe\\VBE2015_16.PNG)",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Vektoriai",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "Nėra"
+        ]
+    },
+    "17": {
+        "Sąlyga": "Vandens lygis $d$ (metrais) uoste laiko momentu $t$ paros laikotarpyje, pradedant nuo vidurnakčio, apskaičiuojamas pagal formulę $d(t)=10+1,8\\cos \\left(\\frac{\\pi}{6}t\\right), 0\\le t\\le 24$. Nustatykite vandens lygį uoste 9 valandą ryto",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Trigonometrija",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "Nėra"
+        ]
+    },
+    "17a": {
+        "Sąlyga": "Vandens lygis $d$ (metrais) uoste laiko momentu $t$ paros laikotarpyje, pradedant nuo vidurnakčio, apskaičiuojamas pagal formulę $d(t)=10+1,8\\cos \\left(\\frac{\\pi}{6}t\\right), 0\\leq t\\leq 24$. Nustatykite vandens lygį uoste 9 valandą ryto",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Trigonometrija",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "Nėra"
+        ]
+    },
+    "17b": {
+        "Sąlyga": "Vandens lygis $d$ (metrais) uoste laiko momentu $t$ paros laikotarpyje, pradedant nuo vidurnakčio, apskaičiuojamas pagal formulę $d(t)=10+1,8\\cos \\left(\\frac{\\pi}{6}t\\right), 0\\leq t\\leq 24$. Didžiausią galimą $d$ reikšmę",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Trigonometrija",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "Nėra"
+        ]
+    }
+}
