@@ -259,19 +259,6 @@
             "Nėra"
         ]
     },
-    "16": {
-        "Sąlyga": "Keturkampis $ABCD$ yra rombas. Raskite vektorių, lygų vektorių sumai $\\overrightarrow{AB}+\\overrightarrow{AD}$ ![](vbe\\VBE2015_16.PNG)",
-        "Gebėjimai": [
-            {
-                "Gebėjimas": "Vektoriai",
-                "Atitikmuo": "",
-                "Sprendimas": ""
-            }
-        ],
-        "Sprendimas": [
-            "Nėra"
-        ]
-    },
     "16a": {
         "Sąlyga": "Keturkampis $ABCD$ yra rombas. Raskite vektorių, lygų vektorių sumai $\\overrightarrow{AB}+\\overrightarrow{AD}$ ![](vbe\\VBE2015_16.PNG)",
         "Gebėjimai": [
@@ -290,19 +277,6 @@
         "Gebėjimai": [
             {
                 "Gebėjimas": "Vektoriai",
-                "Atitikmuo": "",
-                "Sprendimas": ""
-            }
-        ],
-        "Sprendimas": [
-            "Nėra"
-        ]
-    },
-    "17": {
-        "Sąlyga": "Vandens lygis $d$ (metrais) uoste laiko momentu $t$ paros laikotarpyje, pradedant nuo vidurnakčio, apskaičiuojamas pagal formulę $d(t)=10+1,8\\cos \\left(\\frac{\\pi}{6}t\\right), 0\\le t\\le 24$. Nustatykite vandens lygį uoste 9 valandą ryto",
-        "Gebėjimai": [
-            {
-                "Gebėjimas": "Trigonometrija",
                 "Atitikmuo": "",
                 "Sprendimas": ""
             }
