@@ -133,7 +133,7 @@
         "Sąlyga": "Žinoma, kad funkcija $f(x)$ yra lyginė, o $g(x)$ - nelyginė. Apskaičiuokite $g(f(-a))+f(g(b))$, jei $f(a)=-b$, $g(-b)=a$, kur $a\\neq 0$, $b\\neq 0$",
         "Gebėjimai": [
             {
-                "Gebėjimas": "Kombinatorika",
+                "Gebėjimas": "Funkcijos",
                 "Atitikmuo": "",
                 "Sprendimas": ""
             }
