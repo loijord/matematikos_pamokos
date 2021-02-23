@@ -120,6 +120,24 @@
             "$\\displaystyle \\frac{n\\cdot 2^{1+n}}{2^{3-n}} = \\frac{n\\cdot 2\\cdot 2^n}{2^3\\cdot2^{-n}}= \\frac{n\\cdot 2^n \\cdot 2^n}{4} = \\frac{n\\cdot 2^{2n}}{4} = \\frac{n\\cdot 4^n}{4} = n\\cdot 4^{n-1}$"
         ]
     },
+    "3c": {
+        "Sąlyga": "Suprastinkite reiškinį $(3x-2y)^2 - (y+3x)(3x-y)$ [2tšk.]",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Vienanarių ir daugianarių operacijos",
+                "Atitikmuo": "Atskliauskite reiškinius $(3x-2y)^2$ ir $(y+3x)(3x-y)$",
+                "Sprendimas": "$9x^2-12xy+4y^2$ ir $9x^2 - y^2$"
+            },
+            {
+                "Gebėjimas": "Vienanarių ir daugianarių operacijos",
+                "Atitikmuo": "Atimkite reiškinį $9x^2 - y^2$ iš reiškinio $9x^2-12xy+4y^2$",
+                "Sprendimas": "$9x^2-12xy+4y^2 - (9x^2 - y^2) = 9x^2-12xy+4y^2 - 9x^2 + y^2 = 5y^2-12xy$"
+            }
+        ],
+        "Sprendimas": [
+            "$(3x-2y)^2 - (y+3x)(3x-y) = 9x^2-12xy+4y^2 - (9x^2 - y^2) = 9x^2-12xy+4y^2 - 9x^2 + y^2 = 5y^2-12xy$"
+        ]
+    },
     "4a": {
         "Sąlyga": "Lygiašonės trapecijos $ABCD$ trumpesnysis pagrindas $BC$ lygus šoninėms kraštinėms. Trapecijos perimetras lygus 124 cm, o pagrindų ilgiai sutinka santykiu 13:23. Parodykite, kad trumpesnysis trapecijos pagrindas lygus 26cm. [1tšk.]",
         "Gebėjimai": [
@@ -140,9 +158,9 @@
         "Sąlyga": "Lygiašonės trapecijos $ABCD$ trumpesnysis pagrindas $BC$ yra tokio paties ilgio kaip šoninės kraštinės ir lygus 26 cm. Trapecijos pagrindų ilgiai sutinka santykiu 13:23. Raskite šios trapecijos plotą. [3tšk.]",
         "Gebėjimai": [
             {
-                "Gebėjimas": "Trikampių savybės",
+                "Gebėjimas": "Keturkampių savybės",
                 "Atitikmuo": "![](licejus\\lic2017_4b_step1.PNG)",
-                "Sprendimas": "Įbrėžiame į trapeciją lygiagretainį $ABCE$. $AB=CE=CD$, vadinasi $\\angle FEC = \\angle CDF$. Aukštinė dalija $ED$ pusiau."
+                "Sprendimas": "![](licejus\\lic2017_4b_step1sol.png) Įbrėžiame į trapeciją lygiagretainį $ABCE$. $AB=CE=CD$, vadinasi $\\angle FEC = \\angle CDF$. Todėl aukštinė dalija $ED$ pusiau. Turime: $AD-BC = AD-AE = ED = 2FD$"
             },
             {
                 "Gebėjimas": "Pitagoro teorema",
@@ -221,6 +239,60 @@
             "20%= 0.2, 25%=0.25",
             "Iš eilės perrinkus visas $n$ reikšmes nuo 1 iki 9 matome, kad tik su $n=9$ gauname išdėstymą, turintį reikšmę tarp $0.2$ ir $0.25$",
             "Šis išdėstymas yra $1/9, 2/9, 3/9, ...$, į intervalą $(0.2, 0.25)$ pakliuvusi reikšmė yra $2/9$. Vadinasi, gali būti mažiausiai 9 ekskursijos dalyviai."
+        ]
+    },
+    "7a": {
+        "Sąlyga": "Taškas $P$ yra stačiakampio $ABCD$ $(AB<BC)$ kraštinės $BC$ taškas, $AP$ - kampo $BAD$ pusiaukampinė. Žinoma, kad $PO$ yra statmena stačiakampio įstrižainei $AC$ ir taškas $O$ dalija šią įstrižainę pusiau. Apskaičiuokite kampo $CAD$ didumą [4tšk.]",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Trikampių savybės",
+                "Atitikmuo": "Įrodykite, kad $\\triangle APO = \\triangle POC$ ![](licejus\\lic2017_7a.PNG)",
+                "Sprendimas": "Taikome dviejų kraštinių ir kampo tarp jų lygumo požymį: \n bendra kraštinė $PO$, $AO=OC$ ir $\\angle AOP = POC = 90^o$"
+            },
+            {
+                "Gebėjimas": "Trikampių savybės",
+                "Atitikmuo": "Duota, kad $\\triangle APO = \\triangle POC$. Įrodykite, kad $\\angle PAO=\\angle PCO$ ![](licejus\\lic2017_7a.PNG)",
+                "Sprendimas": "$\\triangle APC$ lygiašonis, todėl $\\angle PAO=\\angle PCO$"
+            },
+            {
+                "Gebėjimas": "Trikampių savybės",
+                "Atitikmuo": "Duota, kad $\\angle PAO=\\angle PCO$. Raskite šiuos kampus remdamiesi brėžiniu",
+                "Sprendimas": "Turime $\\angle BAP=\\angle BAD/2=45^o$. Tegu $\\angle PAO = x$. Tada $\\angle BAP + \\angle PAC + \\angle ACB + \\angle CBA = 135^o + 2x = 180^o \\Rightarrow x=22.5^o$"
+            },
+            {
+                "Gebėjimas": "Kampų rūšys",
+                "Atitikmuo": "Stačiakampio vienas iš kampų yra padalytas į tris kampus, iš kurių du lygūs $45^o$ ir $22.5$. Kam lygus trečiasis kampas?",
+                "Sprendimas": "$\\angle CAD = 90^o - 45^0 - 22.5^o = 22.5^o$"
+            }
+        ],
+        "Sprendimas": [
+            "BRĖŽINYS: ![](licejus\\lic2017_7a.PNG) | **DUOTA:** <ul><li> $ABCD$ - stačiakampis </li><li>$$\\angle BAP=\\angle PAD$$ </li><li> $$PO\\perp AC$$ </li><li>$$AO = OC$$</ul> **RASTI:** <ul><li>$\\angle CAD$</li></ul> \n :---|:--- \n",
+            "$\\triangle APO = \\triangle POC$, nes turi bendrą kraštinę $PO$, $AO=OC$ ir $\\angle AOP = POC = 90^o$",
+            "$\\triangle APC$ lygiašonis, todėl $\\angle PAO=\\angle PCO$",
+            "Turime $\\angle BAP=\\angle BAD/2=45^o$. Tegu $\\angle PAO = x$. Tada $\\angle BAP + \\angle PAC + \\angle ACB + \\angle CBA = 135^o + 2x = 180^o \\Rightarrow x=22.5^o$",
+            "Galiausiai $\\angle CAD = 90^o - \\angle BAP - \\angle PAO = 22.5^o$"
+        ]
+    },
+    "7b": {
+        "Sąlyga": "Taškas $P$ yra stačiakampio $ABCD$ $(AB<BC)$ kraštinės $BC$ taškas, $AP$ - kampo $BAD$ pusiaukampinė. Žinoma, kad $PO$ yra statmena stačiakampio įstrižainei $AC$ ir taškas $O$ dalija šią įstrižainę pusiau. Užrašykite formulę, kuria remiantis būtų galima apskaičiuoti trikampio $APO$ plotą, kai žinomos stačiakampio kraštinės $AB = a$ ir $BC = b$ [2tšk.]",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Pitagoro teorema",
+                "Atitikmuo": "BRĖŽINYS: ![](licejus\\lic2017_7a.PNG) | **DUOTA:** <ul><li> $ABCD$ - stačiakampis </li><li>$$\\angle BAP=\\angle PAD$$ </li><li> $$PO\\perp AC$$ </li><li>$$AO = OC$$</li><li>$$AB=a$$</li><li>$$BC=b$$</ul> **RASTI:** <ul><li>$AP$, $AO$</li></ul> \n :---|:---",
+                "Sprendimas": "* $\\triangle ABP$ kampai lygūs $90^o$, $45^o$ ir $180^o-90^0-45^o=45^o$. Todėl jis lygiašonis ir $AB=BP=a$. Pagal Pitagoro teoremą $AP=\\sqrt{a^2+a^2}=a\\sqrt{2}$ \n* Pagal Pitagoro teoremą $AO=\\frac{AC}{2}=\\frac{\\sqrt{a^2+b^2}}{2}$"
+            },
+            {
+                "Gebėjimas": "Pitagoro teorema",
+                "Atitikmuo": "BRĖŽINYS: ![](licejus\\lic2017_7a.PNG) | **DUOTA:** <ul><li> $\\angle AOP = 90^o$ </li><li>$$AP=a\\sqrt{2}$$</li><li>$$AO=\\frac{\\sqrt{a^2+b^2}}{2}$$</ul> **RASTI:** <ul><li>$$S_{\\triangle APO}$$</li></ul> \n :---|:---",
+                "Sprendimas": "* Pagal Pitagoro teoremą $PO = \\sqrt{AP^2-AO^2} = \\sqrt{2a^2 - \\frac{a^2+b^2}{4}}=\\sqrt{\\frac{8a^2}{4} - \\frac{a^2+b^2}{4}} = \\sqrt{\\frac{7a^2-b^2}{4}}=\\frac{\\sqrt{7a^2-b^2}}{2}$\n* $S_{\\triangle APO}=\\frac{AO \\cdot PO}{2}=\\frac{\\sqrt{a^2+b^2}}{2}\\cdot \\frac{\\sqrt{7a^2-b^2}}{2} \\cdot \\frac{1}{2} = \\frac{\\sqrt{(a^2+b^2)(7a^2-b^2)}}{8}$"
+            }
+        ],
+        "Sprendimas": [
+            "BRĖŽINYS: ![](licejus\\lic2017_7a.PNG) | **DUOTA:** <ul><li> $ABCD$ - stačiakampis </li><li>$$\\angle BAP=\\angle PAD$$ </li><li> $$PO\\perp AC$$ </li><li>$$AO = OC$$</li><li>$$AB=a$$</li><li>$$BC=b$$</ul> **RASTI:** <ul><li>$S_{\\triangle APO}$</li></ul> \n :---|:--- \n",
+            "$\\triangle ABP$ kampai lygūs $90^o$, $45^o$ ir $180^o-90^0-45^o=45^o$. Todėl jis lygiašonis.",
+            "$AB=BP=a$. Pagal Pitagoro teoremą $AP=\\sqrt{a^2+a^2}=a\\sqrt{2}$",
+            "Pagal Pitagoro teoremą $AO = OC/2=\\frac{\\sqrt{a^2+b^2}}{2}$",
+            "Pagal Pitagoro teoremą $PO = \\sqrt{AP^2-AO^2} = \\sqrt{2a^2 - \\frac{a^2+b^2}{4}}=\\sqrt{\\frac{8a^2}{4} - \\frac{a^2+b^2}{4}} = \\sqrt{\\frac{7a^2-b^2}{4}}=\\frac{\\sqrt{7a^2-b^2}}{2}$$S_{\\triangle APO}=\\frac{AO \\cdot PO}{2}=\\frac{\\sqrt{a^2+b^2}}{2}\\cdot \\frac{\\sqrt{7a^2-b^2}}{2} \\cdot \\frac{1}{2} = \\frac{\\sqrt{(a^2+b^2)(7a^2-b^2)}}{8}$"
         ]
     }
 }
