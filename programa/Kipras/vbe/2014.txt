@@ -1,0 +1,15 @@
+{
+    "1": {
+        "Sąlyga": "Kokia turi būti $m$ reikšmė, kad taškas $A(0; 1)$ priklausytų funkcijos $f(x)=(m-2)x+m-3$ grafikui?",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Funkcijos",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "Duota, kad $f(0)=1$. Kai $x=0$, tai $(m-2)x+m-3=m-3$. Vadinasi, $m-3=1$ iš čia $m=4$"
+        ]
+    }
+}

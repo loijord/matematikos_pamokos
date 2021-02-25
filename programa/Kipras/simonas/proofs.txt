@@ -1,0 +1,145 @@
+{
+    "1a": {
+        "Sąlyga": "DEMONSTRACIJA. Stačiakampis padalintas į keturis stačiakampius atkarpomis, lygiagrečiomis jo kraštinėms, kaip pavaizduota. Viena iš atkarpų dalija stačiakampio kraštinę į atkarpas, kurių ilgiai yra $a$ ir $b$, o kita - į atkarpas, kurių ilgiai yra $c$ ir $d$. Remdamiesi geometrijos žiniomis įrodykite tapatybę $(a+b)(c+d)=ac+ad+bc+bd$ ![](simonas\\proof_distr_basic.PNG)",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Keturkampių savybės",
+                "Atitikmuo": "Remdamiesi brėžiniu raskite kiekvieno spalvoto stačiakampio plotą ir tada užrašykite jų bendrą plotą ![](simonas\\proof_distr_basic.PNG)",
+                "Sprendimas": "Spalvotų stačiakampių plotai lygūs $bc$, $bd$, $ac$, $ad$. Juos sudėję gauname $ac+ad+bc+bd$"
+            },
+            {
+                "Gebėjimas": "Keturkampių savybės",
+                "Atitikmuo": "Remdamiesi brėžiniu raskite stačiakampio plotą ![](simonas\\proof_distr_basic_step2.PNG)",
+                "Sprendimas": "$S_{ABCD}=(a+b)(c+d)$"
+            }
+        ],
+        "Sprendimas": [
+            "Spalvotų stačiakampių plotai lygūs $bc$, $bd$, $ac$, $ad$. Juos sudėję gauname $ac+ad+bc+bd$",
+            "Viso stačiakampio plotas lygus jo kraštinių ilgių sandaugai: $(a+b)(c+d)$. Vadinasi $(a+b)(c+d)=ac+ad+bc+bd$"
+        ]
+    },
+    "1b": {
+        "Sąlyga": "GEOMETRINIS UŽDAVINYS. Stačiakampis padalintas į keturis stačiakampius atkarpomis, lygiagrečiomis jo kraštinėms, kaip pavaizduota. Viena iš atkarpų dalija stačiakampio kraštinę į atkarpas, kurių ilgiai yra $a$ ir $b$, o kita - į atkarpas, kurių ilgiai yra $c$ ir $d$. Remdamiesi geometrijos žiniomis įrodykite tapatybę $(a+b)(c+d)=ac+ad+bc+bd$ ![](simonas\\proof_distr_basic.PNG)",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Keturkampių savybės",
+                "Atitikmuo": "BRĖŽINYS: ![](simonas\\proof_distr.PNG) | **DUOTA:** <ul><li> $ABCD$ - kvadratas </li><li>$$EG||BC$$ </li><li> $$FH||AB$$</li><li> $$AE=a, EB=b, BF=c, FC=d$$</ul> **ĮRODYTI:** <ul><li>$EBFO$, $OFCG$, $OGDH$ ir $OHAE$ - stačiakampiai</li></ul> \n :---|:--- \n",
+                "Sprendimas": "Keturkampis $EBFO$ turi dvi poras lygiagrečių kraštinių, todėl jis lygiagretainis. $\\angle ABC = 90^o$, todėl šis lygiagretainis yra stačiakampis. Analogiškai $OFCG$, $OGDH$ ir $OHAE$ - stačiakampiai."
+            },
+            {
+                "Gebėjimas": "Keturkampių savybės",
+                "Atitikmuo": "BRĖŽINYS: ![](simonas\\proof_distr.PNG) | **DUOTA:** <ul><li> $ABCD$ - kvadratas </li><li>$$EG||BC$$ </li><li> $$FH||AB$$</li><li> $$AE=a, EB=b, BF=c, FC=d$$</ul> **RASTI:** <ul><li>$$S_{EBFO}+S_{OFCG}+S_{OGDH}+S_{OHAE}$$</li></ul> \n :---|:--- \n",
+                "Sprendimas": "$S_{EBFO}+S_{OFCG}+S_{OGDH}+S_{OHAE}=bc+bd+ac+ad$"
+            },
+            {
+                "Gebėjimas": "Keturkampių savybės",
+                "Atitikmuo": "BRĖŽINYS: ![](simonas\\proof_distr_step2.PNG) | **DUOTA:** <ul><li> $ABCD$ - kvadratas </li><li> $$AE=a, EB=b, BF=c, FC=d$$</ul> **RASTI:** <ul><li>$$S_{ABCD}$$</li></ul> \n :---|:--- \n",
+                "Sprendimas": "$S_{ABCD}=(a+b)(c+d)$"
+            }
+        ],
+        "Sprendimas": [
+            "BRĖŽINYS: ![](simonas\\proof_distr.PNG) | **DUOTA:** <ul><li> $ABCD$ - kvadratas </li><li>$$EG||BC$$ </li><li> $$FH||AB$$</li><li> $$AE=a, EB=b, BF=c, FC=d$$</ul> **ĮRODYTI:** <ul><li>$$(a+b)(c+d)=ac+ad+bc+bd$$</li></ul> \n :---|:--- \n",
+            "Keturkampis $EBFO$ turi dvi poras lygiagrečių kraštinių, todėl jis lygiagretainis. $\\angle ABC = 90^o$, todėl šis lygiagretainis yra stačiakampis. Analogiškai $OFCG$, $OGDH$ ir $OHAE$ - stačiakampiai.",
+            "$S_{EBFO}+S_{OFCG}+S_{OGDH}+S_{OHAE}=bc+bd+ac+ad$",
+            "$S_{EBFO}+S_{OFCG}+S_{OGDH}+S_{OHAE} = S_{ABCD}=(a+b)(c+d)$. Vadinasi, $(a+b)(c+d)=ac+ad+bc+bd$"
+        ]
+    },
+    "2": {
+        "Sąlyga": "Į kvadratą yra įbrėžtas kitas kvadratas iškerta jame keturis stačiuosius trikampius. Vieno iš trikampių statiniai lygūs $a$ ir $b$. Įrodykite, kad įbrėžto kvadrato kraštinės ilgis lygus $\\sqrt{a^2+b^2}$",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Trikampių savybės",
+                "Atitikmuo": "BRĖŽINYS: ![](simonas\\proof_pyth.PNG) | **DUOTA:** <ul><li> $ABCD$ ir $XYZT$ - kvadratai </li><li>$$AX=a$$ </li><li> $$AY=b$$</ul> **ĮRODYTI:** <ul><li>$\\angle BXY = \\angle CYZ$</li></ul> \n :---|:--- \n",
+                "Sprendimas": "$\\begin{cases}\\angle BXY + \\angle BYX = 180^o - \\angle XBY = 180^o-90^o=90^o \\\\ \\angle CYZ + \\angle BYX = 180^o - \\angle XYZ = 180^o-90^o=90^o\\end{cases}$. Iš čia $\\angle BXY = \\angle CYZ$"
+            },
+            {
+                "Gebėjimas": "Trikampių savybės",
+                "Atitikmuo": "BRĖŽINYS: ![](simonas\\proof_pyth_2.PNG) | **DUOTA:** <ul><li> $ABCD$ ir $XYZT$ - kvadratai </li><li>$$AX=a$$ </li><li> $$AY=b$$ </li><li>$\\angle BXY = \\angle CYZ$</ul> **ĮRODYTI:** <ul><li>$\\triangle BXY =\\triangle CYZ = \\triangle CYZ = \\triangle ZDT$</li></ul> \n :---|:--- \n",
+                "Sprendimas": "Dvi $\\triangle BXY$ ir $\\triangle CYZ$ kampų poros sutampa, todėl sutampa ir trečioji pora. Taip pat $XY=YZ$. Vadinasi $\\triangle BXY = \\triangle CYZ$. Analogiškai $\\triangle CYZ = \\triangle ZDT$ ir $\\triangle ZDT = \\triangle XAT$"
+            },
+            {
+                "Gebėjimas": "Trikampių savybės",
+                "Atitikmuo": "BRĖŽINYS: ![](simonas\\proof_pyth_3.PNG) | **DUOTA:** <ul><li> $ABCD$ ir $XYZT$ - kvadratai </li><li>$$AX=a$$ </li><li> $$AY=b$$ </li><li>$$\\triangle BXY = \\triangle CYZ = \\triangle CYZ = \\triangle ZDT$$</ul> **RASTI:** <ul><li>$$S_{\\triangle BXY} + S_{\\triangle CYZ} + S_{\\triangle CYZ} + S_{\\triangle ZDT}$$</li></ul> \n :---|:--- \n",
+                "Sprendimas": "$S_{\\triangle BXY} + S_{\\triangle CYZ} + S_{\\triangle CYZ} + S_{\\triangle ZDT} = 4S_{\\triangle BXY} = 4\\cdot \\frac{ab}{2} = 2ab$"
+            },
+            {
+                "Gebėjimas": "Keturkampių savybės",
+                "Atitikmuo": "BRĖŽINYS: ![](simonas\\proof_pyth_3.PNG) | **DUOTA:** <ul><li> $ABCD$ ir $XYZT$ - kvadratai </li><li>$$AX=a$$ </li><li> $$AY=b$$ </li><li>$$\\triangle BXY = \\triangle CYZ = \\triangle CYZ = \\triangle ZDT$$</ul> **RASTI:** <ul><li>$$S_{ABCD}$$</li></ul> \n :---|:--- \n",
+                "Sprendimas": "$BX=YC=a$, todėl kvadrato ploto formulę turime $S_{ABCD}=(a+b)^2$"
+            },
+            {
+                "Gebėjimas": "Keturkampių savybės",
+                "Atitikmuo": "BRĖŽINYS: ![](simonas\\proof_pyth_5.PNG) | **DUOTA:** <ul><li> $ABCD$ ir $XYZT$ - kvadratai </li><li> $$XY=c$$ </li><li>$$S_{\\triangle BXY} + S_{\\triangle CYZ}+ S_{\\triangle CYZ} + S_{\\triangle ZDT}=2ab$$</ul> **RASTI:** <ul><li>$$S_{ABCD}$$</li></ul> \n :---|:--- \n",
+                "Sprendimas": "$S_{ABCD}=S_{\\triangle BXY} + S_{\\triangle CYZ} + S_{\\triangle CYZ} + S_{\\triangle ZDT}+S_{XYZT}=2ab+c^2$"
+            },
+            {
+                "Gebėjimas": "Greitosios daugybos formulės",
+                "Atitikmuo": "Duota, kad $(a+b)^2=c^2+2ab$, kur $a$ ir $b$ yra tam tikri žinomi dydžiai. Raskite nežinomojo $c$ reikšmę",
+                "Sprendimas": "$\\boxed{2ab+c^2 = (a+b)^2} \\Rightarrow \\boxed{2ab+c^2 = a^2+2ab+b^2} \\Rightarrow \\boxed{c^2 = a^2+b^2} \\Rightarrow \\boxed{c= \\sqrt{a^2+b^2}}$"
+            }
+        ],
+        "Sprendimas": [
+            "BRĖŽINYS: ![](simonas\\proof_pyth.PNG) | **DUOTA:** <ul><li> $ABCD$ ir $XYZT$ - kvadratai </li><li>$$AX=a$$ </li><li> $$AY=b$$</ul> **ĮRODYTI:** <ul><li>$XY=\\sqrt{a^2+b^2}$</li></ul> \n :---|:--- \n",
+            "$\\begin{cases}\\angle BXY + \\angle BYX = 180^o - \\angle XBY = 180^o-90^o=90^o \\\\ \\angle CYZ + \\angle BYX = 180^o - \\angle XYZ = 180^o-90^o=90^o\\end{cases}$. Iš čia $\\angle BXY = \\angle CYZ$",
+            "Dvi $\\triangle BXY$ ir $\\triangle CYZ$ kampų poros sutampa, todėl sutampa ir trečioji pora. Taip pat $XY=YZ$. Vadinasi $\\triangle BXY = \\triangle CYZ$. Analogiškai $\\triangle CYZ = \\triangle ZDT$ ir $\\triangle ZDT = \\triangle XAT$",
+            "$S_{\\triangle BXY} + S_{\\triangle CYZ} + S_{\\triangle CYZ} + S_{\\triangle ZDT} = 4S_{\\triangle BXY} = 4\\cdot \\frac{ab}{2} = 2ab$",
+            "$BX=YC=a$, todėl kvadrato ploto formulę turime $S_{ABCD}=(a+b)^2$",
+            "Tegu $c$ yra įbrėžto kvadrato kraštinė. Tuomet $S_{ABCD}=S_{\\triangle BXY} + S_{\\triangle CYZ} + S_{\\triangle CYZ} + S_{\\triangle ZDT}+S_{XYZT}=2ab+c^2$",
+            "Užrašome lygybę, kurioje $S_{ABCD}$ skaičiuojamas dviem skirtingais būdais ir iš jos surandame $c$ reikšmę: \n $\\boxed{2ab+c^2 = (a+b)^2} \\Rightarrow \\boxed{2ab+c^2 = a^2+2ab+b^2} \\Rightarrow \\boxed{c^2 = a^2+b^2} \\Rightarrow \\boxed{c= \\sqrt{a^2+b^2}}$"
+        ]
+    },
+    "3": {
+        "Sąlyga": "![](simonas\\proof_double_sine.PNG)",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Trikampio savybės",
+                "Atitikmuo": "![](simonas\\proof_double_sine_ex1.PNG)",
+                "Sprendimas": "$\\begin{cases}\\angle DBA + \\angle ABE = 180^o \\\\ (\\angle BAE + \\angle AEB) + \\angle ABE = 180^o \\end{cases}$. Iš čia $\\angle DBA = \\angle BAE + \\angle AEB$"
+            },
+            {
+                "Gebėjimas": "Trikampio savybės",
+                "Atitikmuo": "![](simonas\\proof_double_sine_ex2.PNG)",
+                "Sprendimas": "$\\triangle ABE$ - lygiašonis, todėl $\\angle BAE + \\angle AEB = 2\\angle BAE$"
+            }
+        ],
+        "Sprendimas": [
+            "$\\begin{cases}\\angle DBA + \\angle ABE = 180^o \\\\ (\\angle BAE + \\angle AEB) + \\angle ABE = 180^o \\end{cases}$. Iš čia $\\angle DBA = \\angle BAE + \\angle AEB$",
+            "$\\triangle ABE$ - lygiašonis, todėl $\\angle BAE + \\angle AEB = 2\\angle BAE$ (pirma lygybė įrodyta)",
+            "Tegu $DB=x$. Taikome $\\triangle ADB$ Pitagoro teoremą kraštinei $AD$ rasti: $\\boxed{AD^2+x^2=1} \\Rightarrow \\boxed{AD^2 = 1-x^2} \\Rightarrow \\boxed{AD = \\sqrt{1-x^2}}$",
+            "Užrašome $\\triangle ADE$ Pitagoro teoremą: $\\boxed{(\\sqrt{1-x^2})^2+(x+1)^2=(2a)^2}$",
+            "Iš gautos lygybės randame $x$ reikšmę: $\\boxed{(\\sqrt{1-x^2})^2+(x+1)^2=(2a)^2} \\Rightarrow \\boxed{1-x^2+(x^2+2x+1)=4a^2} \\Rightarrow \\boxed{2x+2=4a^2} \\Rightarrow \\boxed{2x=4a^2-2} \\Rightarrow \\boxed{x=2a^2-1}$"
+        ]
+    },
+    "7a": {
+        "Sąlyga": "Taškas $P$ yra stačiakampio $ABCD$ $(AB<BC)$ kraštinės $BC$ taškas, $AP$ - kampo $BAD$ pusiaukampinė. Žinoma, kad $PO$ yra statmena stačiakampio įstrižainei $AC$ ir taškas $O$ dalija šią įstrižainę pusiau. Apskaičiuokite kampo $CAD$ didumą [4tšk.]",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Trikampių savybės",
+                "Atitikmuo": "Įrodykite, kad $\\triangle APO = \\triangle POC$ ![](licejus\\lic2017_7a.PNG)",
+                "Sprendimas": "Taikome dviejų kraštinių ir kampo tarp jų lygumo požymį: \n bendra kraštinė $PO$, $AO=OC$ ir $\\angle AOP = POC = 90^o$"
+            },
+            {
+                "Gebėjimas": "Trikampių savybės",
+                "Atitikmuo": "Duota, kad $\\triangle APO = \\triangle POC$. Įrodykite, kad $\\angle PAO=\\angle PCO$ ![](licejus\\lic2017_7a.PNG)",
+                "Sprendimas": "$\\triangle APC$ lygiašonis, todėl $\\angle PAO=\\angle PCO$"
+            },
+            {
+                "Gebėjimas": "Trikampių savybės",
+                "Atitikmuo": "Duota, kad $\\angle PAO=\\angle PCO$. Raskite šiuos kampus remdamiesi brėžiniu",
+                "Sprendimas": "Turime $\\angle BAP=\\angle BAD/2=45^o$. Tegu $\\angle PAO = x$. Tada $\\angle BAP + \\angle PAC + \\angle ACB + \\angle CBA = 135^o + 2x = 180^o \\Rightarrow x=22.5^o$"
+            },
+            {
+                "Gebėjimas": "Kampų rūšys",
+                "Atitikmuo": "Stačiakampio vienas iš kampų yra padalytas į tris kampus, iš kurių du lygūs $45^o$ ir $22.5$. Kam lygus trečiasis kampas?",
+                "Sprendimas": "$\\angle CAD = 90^o - 45^0 - 22.5^o = 22.5^o$"
+            }
+        ],
+        "Sprendimas": [
+            "BRĖŽINYS: ![](licejus\\lic2017_7a.PNG) | **DUOTA:** <ul><li> $ABCD$ - stačiakampis </li><li>$$\\angle BAP=\\angle PAD$$ </li><li> $$PO\\perp AC$$ </li><li>$$AO = OC$$</ul> **RASTI:** <ul><li>$\\angle CAD$</li></ul> \n :---|:--- \n",
+            "$\\triangle APO = \\triangle POC$, nes turi bendrą kraštinę $PO$, $AO=OC$ ir $\\angle AOP = POC = 90^o$",
+            "$\\triangle APC$ lygiašonis, todėl $\\angle PAO=\\angle PCO$",
+            "Turime $\\angle BAP=\\angle BAD/2=45^o$. Tegu $\\angle PAO = x$. Tada $\\angle BAP + \\angle PAC + \\angle ACB + \\angle CBA = 135^o + 2x = 180^o \\Rightarrow x=22.5^o$",
+            "Galiausiai $\\angle CAD = 90^o - \\angle BAP - \\angle PAO = 22.5^o$"
+        ]
+    }
+}
