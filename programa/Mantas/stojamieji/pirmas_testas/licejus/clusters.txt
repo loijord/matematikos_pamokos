@@ -1,4 +1,0 @@
-{"Skaičiai ir skaičiavimai": ["Dalumas", "$\\mathbb{Z}$ ir $\\mathbb{Q}$ operacijos", "Procentai", "Šaknys ir laipsniai"],
-"Reiškiniai, lygtys, nelygybės": ["Vienanarių ir daugianarių operacijos", "Laipsnių taikymas reiškiniuose", "Skaidymas dauginamaisiais", "Greitosios daugybos formulės", "Lygtys ir nelygybės", "Lygčių ir nelygybių sudarymas"],
-"Geometrija": ["Figūrų pažinimas", "Kampų rūšys", "Trikampių savybės", "Keturkampių savybės", "Pitagoro teorema", "Apskritimo ir skritulio savybės", "Erdvės geometrija"],
-"Kombinatorika": ["Sudėties ir daugybos taisyklės"]}
