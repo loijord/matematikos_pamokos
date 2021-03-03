@@ -1,0 +1,171 @@
+{
+    "1": {
+        "Sąlyga": "Išskleiskite: $(x-2)(x+2)$",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Vienanarių ir daugianarių operacijos",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "$(x-2)(x+2)=\\begin{array}{c|c|c} &x&-2 \\\\ \\hline x&x^2&-2x \\\\ \\hline 2&2x&-4\\end{array} = x^2 - 4$"
+        ]
+    },
+    "2": {
+        "Sąlyga": "Išskleiskite: $(x+2)(x+2)$",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Vienanarių ir daugianarių operacijos",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "$(x+2)(x+2)=\\begin{array}{c|c|c} &x&2 \\\\ \\hline x&x^2&2x \\\\ \\hline 2&2x&4\\end{array} = x^2 +4x + 4$"
+        ]
+    },
+    "3": {
+        "Sąlyga": "Išskleiskite: $(x-\\sqrt{3})(x+\\sqrt{3})$",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Vienanarių ir daugianarių operacijos",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "$(x-\\sqrt{3})(x+\\sqrt{3})=\\begin{array}{c|c|c} &x&-\\sqrt{3} \\\\ \\hline x&x^2&-x\\sqrt{3} \\\\ \\hline \\sqrt{3}&x\\sqrt{3}&-3\\end{array} = x^2 - 3$"
+        ]
+    },
+    "4": {
+        "Sąlyga": "Išskleiskite: $(x-3)(x+3)$",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Vienanarių ir daugianarių operacijos",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "$(x-3)(x+3)=\\begin{array}{c|c|c} &x&-3 \\\\ \\hline x&x^2&-3x \\\\ \\hline 3&3x&-9\\end{array} = x^2 - 9$"
+        ]
+    },
+    "5": {
+        "Sąlyga": "Išskleiskite: $(a-b)(a+b)$",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Vienanarių ir daugianarių operacijos",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "$(a-b)(a+b)=\\begin{array}{c|c|c} &a&-b \\\\ \\hline a&a^2&-ab \\\\ \\hline b&ab&-b^2\\end{array} = a^2 - b^2$"
+        ]
+    },
+    "6": {
+        "Sąlyga": "Išskleiskite: $(a-b)(a-b)$",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Vienanarių ir daugianarių operacijos",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "$(a-b)(a+b)=\\begin{array}{c|c|c} &a&-b \\\\ \\hline a&a^2&-ab \\\\ \\hline -b&-ab&b^2\\end{array} = a^2 -2ab +b^2$"
+        ]
+    },
+    "7": {
+        "Sąlyga": "Išskleiskite: $(a-b)(a-b)$",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Vienanarių ir daugianarių operacijos",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "$(a+b)(a+b)=\\begin{array}{c|c|c} &a&b \\\\ \\hline a&a^2&ab \\\\ \\hline b&ab&b^2\\end{array} = a^2 +2ab +b^2$"
+        ]
+    },
+    "8": {
+        "Sąlyga": "Išskleiskite: $(a+b)(a^2-ab+b^2)$",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Vienanarių ir daugianarių operacijos",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "$(a+b)(a^2-ab+b^2)=\\begin{array}{c|c|c} &a&b \\\\ \\hline a^2&a^3&a^2b \\\\ \\hline -ab&-a^2b&-ab^2 \\\\ \\hline b^2&ab^2&b^3 \\end{array} = a^3+b^3$"
+        ]
+    },
+    "9": {
+        "Sąlyga": "Išskleiskite: $(a-b)(a^2+ab+b^2)$",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Vienanarių ir daugianarių operacijos",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "$(a-b)(a^2+ab+b^2)=\\begin{array}{c|c|c} &a&-b \\\\ \\hline a^2&a^3&-a^2b \\\\ \\hline ab&a^2b&-ab^2 \\\\ \\hline b^2&ab^2&-b^3 \\end{array} = a^3-b^3$"
+        ]
+    },
+    "10": {
+        "Sąlyga": "Išskleiskite: $(x-1)(x^3+x^2+x+1)$",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Vienanarių ir daugianarių operacijos",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "$(x-1)(x^3+x^2+x+1)=\\begin{array}{c|c|c} &x&-1 \\\\ \\hline x^3&x^4&-x^3 \\\\ \\hline x^2&x^3&-x^2 \\\\ \\hline x&x^2&-x \\\\ \\hline\\ 1&x&-1 \\end{array} = x^4-1$"
+        ]
+    },
+    "11": {
+        "Sąlyga": "Išskleiskite: $(x^2-2x+2)(x^2+2x+2)$",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Vienanarių ir daugianarių operacijos",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "$(x^2-2x+2)(x^2+2x+2)=\\begin{array}{c|c|c|c} &x^2&-2x&2 \\\\ \\hline x^2&x^4&-2x^3&2x^2 \\\\ \\hline 2x&2x^3&-4x^2&4x \\\\ \\hline 2&2x^2&-4x&4 \\end{array} = x^4+4$"
+        ]
+    },
+    "12": {
+        "Sąlyga": "Išskleiskite: $(a^2+b^2+c^2-ab-bc-ca)(a+b+c)$",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Vienanarių ir daugianarių operacijos",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "$(a^2+b^2+c^2-ab-bc-ca)(a+b+c) = \\begin{array}{c|c|c|c|c|c|c|c} &a^2&b^2&c^2&-ab&-bc&-ca \\\\ \\hline a&a^3&ab^2&ac^2&-a^2b&-abc&-a^2c \\\\ \\hline b&a^2b&b^3&bc^2&-ab^2&-b^2c&-abc \\\\ \\hline c&a^2c&b^2c&c^3&-abc&-bc^2&-ac^2 \\end{array} = a^3+b^3+c^3-3abc$"
+        ]
+    },
+    "13": {
+        "Sąlyga": "Išskleiskite: $(\\sqrt{3}-\\sqrt{2})(\\sqrt{3}+\\sqrt{2})$",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Vienanarių ir daugianarių operacijos",
+                "Atitikmuo": "",
+                "Sprendimas": ""
+            }
+        ],
+        "Sprendimas": [
+            "$(\\sqrt{3}-\\sqrt{2})(\\sqrt{3}+\\sqrt{2})=\\begin{array}{c|c|c} &\\sqrt{3}&-\\sqrt{2} \\\\ \\hline \\sqrt{3}&3&-\\sqrt{3}\\sqrt{2} \\\\ \\hline \\sqrt{2}&\\sqrt{3}\\sqrt{2}&-2\\end{array} = 3-2=1$"
+        ]
+    }
+}

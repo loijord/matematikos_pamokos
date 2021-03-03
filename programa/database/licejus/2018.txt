@@ -1,0 +1,132 @@
+{
+    "1": {
+        "Sąlyga": "Stačiakampio gretasienio formos stiklinės matmenys yra $5\\text{cm}\\times 5\\text{cm} \\times 6\\text{cm}$, o jos dugnas kvadrato formos. Į stiklinę įpylus aštuntadalį litro vandens, metami ledo kubeliai, kurių briaunos lygios $2\\text{cm}$. Ledo kubelis vandenyje plūduriuoja: $\\displaystyle \\frac{1}{8}$ kubelio tūrio yra virš vandens. Kiek daugiausia tokių kubelių galima įmesti į stiklinę, kad vanduo iš jos neišsilietų? [3tšk.]",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Erdvės geometrija",
+                "Atitikmuo": "Į $5\\text{cm}\\times 5\\text{cm} \\times 6\\text{cm}$ talpos indą įpylė aštuntadalį litro vandens. Kiek vandens dar galima įpilti į indą norint jį pilnai užpildyti?",
+                "Sprendimas": "Indo tūris $5\\text{cm}\\times 5\\text{cm} \\times 6\\text{cm} = 150\\text{cm}^3$. $1/8 \\text{l} = 125\\text{ml} = 125\\text{cm}^3$. Dar galima įpilti $25\\text{cm}^3$ vandens"
+            },
+            {
+                "Gebėjimas": "Erdvės geometrija",
+                "Atitikmuo": "Ledo kubelis vandenyje plūduriuoja: $\\displaystyle \\frac{1}{8}$ kubelio tūrio yra virš vandens. Kubelio briaunos lygios $2\\text{cm}$. Kokį tūrį vandens jis išstums, jei jį panardinsime?",
+                "Sprendimas": "Kubelio tūris $2^3=8 (\\text{cm}^3)$. Neapsemta dalis $1 \\text{cm}^3$, apsemta $7\\text{cm}^3$. Vadinasi kubelis išstums $7\\text{cm}^3$ vandens."
+            },
+            {
+                "Gebėjimas": "Lygtys ir nelygybės",
+                "Atitikmuo": "Žinoma, kad norint užpildyti stiklinę trūksta $25\\text{cm}^3$ vandens, o ledo kubelis išstumia $7\\text{cm}^3$. Kiek daugiausia tokių kubelių galima įmesti į stiklinę, kad vanduo iš jos neišsilietų?",
+                "Sprendimas": "$3 < 25/7 < 4$. Įmetus 3 kubelius vanduo neišsilies, o įmetus 4 išsilies. Vadinasi, galima įmesti daugiausia 3 tokius kubelius."
+            }
+        ],
+        "Sprendimas": [
+            "Indo tūris $5\\text{cm}\\times 5\\text{cm} \\times 6\\text{cm} = 150\\text{cm}^3$. $1/8\\text{ l} = 125\\text{ml} = 125\\text{cm}^3$. Dar galima įpilti $25\\text{cm}^3$ vandens",
+            "Ledo kubelis vandenyje plūduriuoja: $\\displaystyle \\frac{1}{8}$ kubelio tūrio yra virš vandens. Kubelio briaunos lygios $2\\text{cm}$. Kokį tūrį vandens jis išstums, jei jį panardinsime?",
+            "$3 < 25/7 < 4$. Įmetus 3 kubelius vanduo galbūt neišsilies, o įmetus 4 išsilies.",
+            "Tris $2\\times 2 \\times 2\\text{cm}^3$ kubelius įmanoma įmesti taip, kad vienas kubelis nenardintų kito. Vadinasi, galima įmesti daugiausia 3 tokius kubelius."
+        ]
+    },
+    "2a": {
+        "Sąlyga": "Kiek iš viso yra natūraliųjų penkiaženklių skaičių? [2tšk.]",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Sudėties ir daugybos taisyklės",
+                "Atitikmuo": "Bandome atsitiktinai sudaryti penkiaženklį skaičių. Keliais būdais būdais galime parinkti jo pirmąjį, antrąjį, trečiąjį, ketvirtąjį, penktąjį skaitmenis?",
+                "Sprendimas": "Pirmąjį skaitmenį galima pasirinkti 9 būdais. Likusius - po 10 būdų"
+            },
+            {
+                "Gebėjimas": "Sudėties ir daugybos taisyklės",
+                "Atitikmuo": "Bandome atsitiktinai sudaryti penkiaženklį skaičių. Pirmąjį skaitmenį leidžiama pasirinkti 9 būdais. Likusius - po 10 būdų. Kiek tokių skirtingų skaičių galima sudaryti?",
+                "Sprendimas": "$9 \\times 10 \\times 10 \\times 10 \\times 10 = 90000$"
+            }
+        ],
+        "Sprendimas": [
+            "Pirmąjį skaitmenį galima pasirinkti 9 būdais. Likusius - po 10 būdų",
+            "Pritaikę kombinatorinę daugybos taisyklę gauname, kad yra $9 \\times 10 \\times 10 \\times 10 \\times 10 = 90000$ tokių skaičių"
+        ]
+    },
+    "2b": {
+        "Sąlyga": "Natūralieji skaičiai, kurie iš kairės ir iš dešinės skaitomi vienodai, vadinami palindrominiais. Palindrominių skaičių pavyzdžiai: $33$, $505$, $4774$, $12321$. Kiek iš viso yra natūraliųjų penkiaženklių palindrominių skaičių?",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Sudėties ir daugybos taisyklės",
+                "Atitikmuo": "Bandome atsitiktinai sudaryti penkiaženklį skaičių. Keliais būdais būdais galime parinkti jo pirmąjį, antrąjį, trečiąjį, ketvirtąjį, penktąjį skaitmenis?",
+                "Sprendimas": "Pirmąjį skaitmenį galima pasirinkti 9 būdais. Antrąjį ir trečiąjį - po 10 būdų. Ketvirtas ir penktas skaitmuo pasirenkami pagal tai, kokie buvo pirmi du skaitmenys, vadinasi jiems pasirinkti bus po vieną būdą"
+            },
+            {
+                "Gebėjimas": "Sudėties ir daugybos taisyklės",
+                "Atitikmuo": "Bandome atsitiktinai sudaryti tam tikrą penkiaženklį skaičių. Pirmąjį skaitmenį galima pasirinkti 9 būdais, antrąjį 10, trečiąjį 10 būdų. Ketvirtas skaitmuo sutampa su antru skaitmeniu, o penktas su pirmu. Kiek tokių skirtingų skaičių galima sudaryti?",
+                "Sprendimas": "$9 \\times 10 \\times 10 \\times 1 \\times 1 = 900$"
+            }
+        ],
+        "Sprendimas": [
+            "Pirmąjį skaitmenį galima pasirinkti 9 būdais. Antrąjį ir trečiąjį - po 10 būdų. Ketvirtas ir penktas skaitmuo pasirenkami pagal tai, kokie buvo pirmi du skaitmenys, vadinasi jiems pasirinkti bus po vieną būdą",
+            "Pritaikę kombinatorinę daugybos taisyklę gauname, kad yra $9 \\times 10 \\times 10 \\times 1 \\times 1 = 900$ tokių skaičių"
+        ]
+    },
+    "2c": {
+        "Sąlyga": "Duota, kad iš viso yra 90000 skirtingų penkiaženklių skaičių. 900 iš jų yra palindromai. Kuri dalis natūraliųjų penkiaženklių skaičių **nėra** palindrominiai? Atsakymą užrašykite nesuprastinama ir dešimtaine trupmenomis. [2 tšk.]",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Sudėties ir daugybos taisyklės",
+                "Atitikmuo": "Duota, kad iš viso yra 90000 skirtingų penkiaženklių skaičių. 900 iš jų yra palindromai. Kuri dalis natūraliųjų penkiaženklių skaičių yra palindrominiai?",
+                "Sprendimas": "Palindrominiai skaičiai sudaro $900/90000 = 1/100$ visų penkiaženklių skaičių"
+            },
+            {
+                "Gebėjimas": "$\\mathbb{Z}$ ir $\\mathbb{Q}$ operacijos",
+                "Atitikmuo": "Palindrominiai skaičiai sudaro $1/100$ visų penkiaženklių skaičių. Kuri dalis penkiaženklių skaičių **nėra** palindrominiai? Atsakymą užrašykite nesuprastinama ir dešimtaine trupmenomis.",
+                "Sprendimas": "$1 - 1/100 = 99/100$ (nesuprastinama trupmena)\n\n$99/100=0.99$ (dešimtainė trupmena)"
+            }
+        ],
+        "Sprendimas": [
+            "Palindrominiai skaičiai sudaro $900/90000 = 1/100$ visų penkiaženklių skaičių",
+            "Vadinasi $1 - 1/100 = 99/100$ šių skaičių nėra palindrominiai (tai nesuprastinama trupmena)",
+            "$99/100 = 0.99$ (tai dešimtainė trupmena)"
+        ]
+    },
+    "4": {
+        "Sąlyga": "Pateiktą teiginį užrašykite nelygybe, o po to įrodykite, kad teiginys yra teisingas. ***Bet kurių dviejų teigiamų vienas kitam atvirkštinių skaičių suma yra nemažesnė už 2.*** [2 tšk.]",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Lygčių ir nelygybių sudarymas",
+                "Atitikmuo": "Pateiktą teiginį užrašykite nelygybe. ***Bet kurių dviejų teigiamų vienas kitam atvirkštinių skaičių suma yra nemažesnė už 2.***",
+                "Sprendimas": "Nelygybė: $x+\\frac{1}{x}\\ge 2$"
+            },
+            {
+                "Gebėjimas": "Lygtys ir nelygybės",
+                "Atitikmuo": "Įrodykite nelygybę $x+\\frac{1}{x}\\ge 2$",
+                "Sprendimas": "$\\boxed{x+\\frac{1}{x}\\ge 2} \\Leftrightarrow \\boxed{x^2+1\\ge 2x} \\Leftrightarrow \\boxed{x^2-2x + 1\\ge 0} \\Leftrightarrow \\boxed{(x-1)^2 \\ge 0}$\n\n Gauta nelygybė teisinga su visomis teigiamomis $x$ reikšmėmis, nes bet kurio skaičiaus kvadratas visais atvejais nebūna neigiamas"
+            }
+        ],
+        "Sprendimas": [
+            "Nelygybė: $x+\\frac{1}{x}\\ge 2$",
+            "Įrodymas: $\\boxed{x+\\frac{1}{x}\\ge 2} \\Leftrightarrow \\boxed{x^2+1\\ge 2x} \\Leftrightarrow \\boxed{x^2-2x + 1\\ge 0} \\Leftrightarrow \\boxed{(x-1)^2 \\ge 0}$",
+            "Gauta nelygybė teisinga su visomis $x$ reikšmėmis, nes bet kurio skaičiaus kvadratas visais atvejais nebūna neigiamas"
+        ]
+    },
+    "5": {
+        "Sąlyga": "$n$ - kampis vadinamas iškiluoju, jei jo kampų dydžiai yra mažesni už 180 laipsnių. Kiek kraštinių turi iškilasis $n$ - kampis, jei jo visų kampų, išskyrus vieną kampą, suma lygi 1350 laipsnių? [3tšk.]",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Keturkampių savybės",
+                "Atitikmuo": "Užrašykite formulę, pagal kurią randama $n$-kampio kampų suma***",
+                "Sprendimas": "$180^o\\times (n-2)$"
+            },
+            {
+                "Gebėjimas": "Lygtys ir nelygybės",
+                "Atitikmuo": "Nėra",
+                "Sprendimas": "Nėra"
+            },
+            {
+                "Gebėjimas": "Lygtys ir nelygybės",
+                "Atitikmuo": "Nėra",
+                "Sprendimas": "Nėra"
+            }
+        ],
+        "Sprendimas": [
+            "Užrašome formulę, pagal kurią galima rasti $n$ - kampio kampų sumą: $180^o\\times (n-2)$",
+            "$7 < 1350^o/180^o < 8$. Remiantis formule:\n\n* kai $n-2=7$, tai kampų suma yra $180^0\\times 7 = 1260$\n* kai $n-2=8$, tai kampų suma yra $180^0\\times 8 = 1440$",
+            "Jei daugiakampio kampų suma lygi $1440^o$, tai trūkstamas kampas lygus $90^o$ ir $n=10$",
+            "Reikia parodyti, kad negali būti kitas skaičius kampų. Jei $n=9$ arba mažesnis, kampų suma būtų $1260^o$ arba mažesnė. Jei $n\\ge 11$, tai kampų suma yra bent $180^o$ didesnė už 10 kampio kampų sumą. Vadinasi ir trūkstamas kampas turės būti bent $180^o$ didesnis. Taip būti negali, nes visi kampai yra mažesni už $180^o$"
+        ]
+    }
+}

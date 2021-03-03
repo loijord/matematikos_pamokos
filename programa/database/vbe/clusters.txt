@@ -1,0 +1,4 @@
+{"Algebra": ["Elementariosios matematikos gebėjimai", "Reiškinių sudarymas", "Progresijos", "Palūkanos ir procentai", "Logaritmai", "Laipsniai ir šaknys"],
+"Geometrija": ["Geometrija", "Trigonometrija", "Vektoriai", "Erdvės geometrija"],
+"Funkcijos": ["Funkcijos", "Išvestinės", "Integralai"],
+"Kombinatorika": ["Tikimybių teorija", "Statistika", "Kombinatorika"]}
