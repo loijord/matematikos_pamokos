@@ -1,0 +1,162 @@
+{
+    "1": {
+        "Sąlyga": "Petro sieninis laikrodis per valandą nuskuba 2 minutes, o žadintuvas per valandą vėluoja 1 minutę. Vakare Petras tiksliai nustatė abu laikrodžius. Rytą prabudus, sieninis laikrodis rodė 7 valandas 30 minučių, o žadintuvas – 7 valandas. Kiek laiko buvo iš tikrųjų? (4tšk.)",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "$\\mathbb{Z}$ ir $\\mathbb{Q}$ operacijos",
+                "Atitikmuo": "Petro sieninis laikrodis per valandą nuskuba 2 minutes, o žadintuvas per valandą vėluoja 1 minutę. Vakare Petras tiksliai nustatė abu laikrodžius. Rytą prabudus, sieninis laikrodis rodė 7 valandas 30 minučių, o žadintuvas – 7 valandas. Koks buvo laikrodžių parodymų skirtumas ryte?",
+                "Sprendimas": "Laikrodžių parodymų skirtumas ryte: 7h 30min - 7h = 30(min.)"
+            },
+            {
+                "Gebėjimas": "Lygčių ir nelygybių sudarymas",
+                "Atitikmuo": "Petro sieninis laikrodis per valandą nuskuba 2 minutes, o žadintuvas per valandą vėluoja 1 minutę. Vakare Petras tiksliai nustatė abu laikrodžius. Ryte laikrodžių parodymų skirtumas buvo 30 min. Sudarykite proporciją žadintuvo vėlavimo laikui nustatyti.",
+                "Sprendimas": "$\\boxed{\\begin{array}{rcl} 30 & - & 3 \\\\ x & - & 1 \\end{array}}$"
+            },
+            {
+                "Gebėjimas": "$\\mathbb{Z}$ ir $\\mathbb{Q}$ operacijos",
+                "Atitikmuo": "Išspręskite proporciją: $\\boxed{\\begin{array}{rcl} 30 & - & 3 \\\\ x & - & 1 \\end{array}}$",
+                "Sprendimas": "$30=3x \\Rightarrow x=10$"
+            },
+            {
+                "Gebėjimas": "$\\mathbb{Z}$ ir $\\mathbb{Q}$ operacijos",
+                "Atitikmuo": "Petro sieninis laikrodis per valandą nuskuba 2 minutes, o žadintuvas per valandą vėluoja 1 minutę. Vakare Petras tiksliai nustatė abu laikrodžius. Rytą prabudus, sieninis laikrodis rodė 7 valandas 30 minučių, o žadintuvas – 7 valandas. Žadintuvas vėlavo 10 min. Kiek laiko buvo iš tikrųjų?",
+                "Sprendimas": "$7\\text{h} + 10\\text{min} = 7\\text{h }10\\text{min}$"
+            }
+        ],
+        "Sprendimas": [
+            "Laikrodžių parodymų skirtumas ryte: 7h 30min - 7h = 30(min.)",
+            "Sudarome proporciją žadintuvo atsilikimo laikui nustatyti: $\\boxed{\\begin{array}{rcl} 30 & - & 3 \\\\ x & - & 1 \\end{array}}$",
+            "Proporcijos sprendimas: $30=3x \\Rightarrow x=10$",
+            "Kiek laiko buvo iš tikrųjų: $7\\text{h} + 10\\text{min} = 7\\text{h }10\\text{min}$"
+        ]
+    },
+    "2": {
+        "Sąlyga": "Viena sekretorė gali perrašyti rankraštį per 5 h 20 min., o kita per 4 h 40 min. Dirbdamos kartu jos perrašė 90 puslapių. Kiek puslapių perrašė kiekviena sekretorė? (3tšk.)",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "$\\mathbb{Z}$ ir $\\mathbb{Q}$ operacijos",
+                "Atitikmuo": "Viena sekretorė gali perrašyti rankraštį per 5 h 20 min., o kita per 4 h 40 min. Koks sekretorių darbo tempų santykis?",
+                "Sprendimas": "5h 20min : 4h 40min. = 320min : 280min = 8 : 7"
+            },
+            {
+                "Gebėjimas": "Lygčių ir nelygybių sudarymas",
+                "Atitikmuo": "Dviejų sekretorių darbo tempų santykis yra 8 : 7. Dirbdamos kartu jos perrašė 90 puslapių. Sudarykite lygtį, kurią sprendžiant būtų galima rasti šias dalis.",
+                "Sprendimas": "$\\boxed{7x + 8x = 90}$"
+            },
+            {
+                "Gebėjimas": "Tiesinės lygtys ir nelygybės",
+                "Atitikmuo": "Lygtyje $\\boxed{7x + 8x = 90}$ yra sudedamos dviejų žmonių atlikto darbo dalys. Raskite šias dalis.",
+                "Sprendimas": "$\\boxed{7x + 8x = 90} \\Rightarrow \\boxed{15x = 90} \\Rightarrow \\boxed{x = 6} \\Rightarrow \\boxed{7x = 42\\text{ ir }8x=48}$"
+            }
+        ],
+        "Sprendimas": [
+            "Sekretorių darbo tempų santykis: 5h 20min : 4h 40min. = 320min : 280min = 8 : 7",
+            "Sudarome lygtį, kurioje $7x$ ir $8x$ atitinka sekretorių atlikto darbo dalis: $\\boxed{7x + 8x = 90}$",
+            "Išsprendžiame lygtį, randame šias darbo dalis: $7x=42$(psl.), $8x=48$(psl.)"
+        ]
+    },
+    "3": {
+        "Sąlyga": "Apskaičiuokite: $\\sqrt{\\frac{8^{10}+4^{10}}{8^4+4^{11}}}$ (3tšk.)",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Laipsnių taikymas reiškiniuose",
+                "Atitikmuo": "Reiškinyje $\\frac{8^{10}+4^{10}}{8^4+4^{11}}$ visus ketverto ir aštuoneto laipsnius pakeiskite dvejeto laipsniais",
+                "Sprendimas": "$\\displaystyle \\frac{8^{10}+4^{10}}{8^4+4^{11}} = \\frac{\\left(2^3\\right)^{10}+\\left(2^2\\right)^{10}}{\\left(2^3\\right)^4+\\left(2^2\\right)^{11}}=\\frac{2^{30}+2^{20}}{2^{12}+2^{22}}$"
+            },
+            {
+                "Gebėjimas": "Skaidymas dauginamaisiais",
+                "Atitikmuo": "Pilnai išskaidykite trupmenos $\\displaystyle\\frac{2^{30}+2^{20}}{2^{12}+2^{22}}$ skaitiklį ir vardiklį",
+                "Sprendimas": "$\\displaystyle\\frac{2^{30}+2^{20}}{2^{12}+2^{22}} = \\frac{2^{20}(2^{10}+1)}{2^{12}(1+2^{10})}$"
+            },
+            {
+                "Gebėjimas": "Laipsnių taikymas reiškiniuose",
+                "Atitikmuo": "Suprastinkite reiškinį $\\displaystyle\\sqrt{\\frac{2^{20}\\left(2^{10}+1\\right)}{2^{12}\\left(1+2^{10}\\right)}}$",
+                "Sprendimas": "$\\displaystyle\\sqrt{\\frac{2^{20}\\left(2^{10}+1\\right)}{2^{12}\\left(1+2^{10}\\right)}} = \\sqrt{\\frac{2^{20}}{2^{12}}}=\\sqrt{2^8}=2^4=\\boxed{16}$"
+            }
+        ],
+        "Sprendimas": [
+            "$\\displaystyle \\sqrt{\\frac{8^{10}+4^{10}}{8^4+4^{11}}} = \\sqrt{\\frac{\\left(2^3\\right)^{10}+\\left(2^2\\right)^{10}}{\\left(2^3\\right)^4+\\left(2^2\\right)^{11}}} = \\boxed{\\sqrt{\\frac{2^{30}+2^{20}}{2^{12}+2^{22}}}} = \\boxed{\\sqrt{\\frac{2^{20}\\left(1+2^{10}\\right)}{2^{12}\\left(1+2^{10}\\right)}}} = \\sqrt{\\frac{2^{20}}{2^{12}}}=\\sqrt{2^8}=2^4=\\boxed{16}$"
+        ]
+    },
+    "4": {
+        "Sąlyga": "Apskaičiuokite reiškinio $\\frac{n^2-mn}{4m^2}$ skaitinę reikšmę, jeigu žinoma, kad $\\frac{n-2m}{m}=3$ (3tšk.)",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "$\\mathbb{Z}$ ir $\\mathbb{Q}$ operacijos",
+                "Atitikmuo": "Duotas sąryšis $\\displaystyle\\frac{n-2m}{m}=3$. Pagal jį nustatykite, kaip $n$ priklauso nuo $m$",
+                "Sprendimas": "$\\displaystyle\\frac{n-2m}{m}=3 \\Rightarrow \\frac{n}{m}-\\frac{2m}{m}=3 \\Rightarrow \\frac{n}{m}-2=3 \\Rightarrow  \\frac{n}{m}=5 \\Rightarrow n=5m$"
+            },
+            {
+                "Gebėjimas": "$\\mathbb{Z}$ ir $\\mathbb{Q}$ operacijos",
+                "Atitikmuo": "Reiškinyje $\\displaystyle \\frac{n^2-mn}{4m^2}$ pakeiskite $n \\to 5m$.",
+                "Sprendimas": "$\\displaystyle \\frac{n^2-mn}{4m^2} = \\frac{(5m)^2-m\\cdot 5m}{4m^2}$"
+            },
+            {
+                "Gebėjimas": "$\\mathbb{Z}$ ir $\\mathbb{Q}$ operacijos",
+                "Atitikmuo": "Suprastinkite reiškinį $\\displaystyle\\frac{(5m)^2-m\\cdot 5m}{4m^2}$",
+                "Sprendimas": "$\\displaystyle\\frac{(5m)^2-m\\cdot 5m}{4m^2} = \\frac{25m^2-5m^2}{4m^2} = \\frac{20m^2}{4m^2} = 5$"
+            }
+        ],
+        "Sprendimas": [
+            "$\\displaystyle\\frac{n-2m}{m}=3 \\Rightarrow \\frac{n}{m}-\\frac{2m}{m}=3 \\Rightarrow \\frac{n}{m}-2=3 \\Rightarrow  \\frac{n}{m}=5 \\Rightarrow n=5m$",
+            "$\\displaystyle \\frac{n^2-mn}{4m^2} = \\frac{(5m)^2-m\\cdot 5m}{4m^2} = \\frac{25m^2-5m^2}{4m^2} = \\frac{20m^2}{4m^2} = 5$"
+        ]
+    },
+    "5": {
+        "Sąlyga": "Skaičius $a$ didesnis $20\\%$ už skaičių $b$. Keliais procentais skaičius $b$ mažesnis už skaičių $a$? (3tšk.)",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Procentai",
+                "Atitikmuo": "a) Skaičius $a$ didesnis $20\\%$ už skaičių $b$. Kelis procentus skaičiaus $b$ sudaro skaičius $a$? \n\n b) Skaičius $b$ sudaro $83\\frac{1}{3}\\%$ skaičiaus $a$. Keliais procentais skaičius $b$ mažesnis už skaičių $a$?",
+                "Sprendimas": "a) $a$ sudaro $120\\%$ skaičiaus $b$ \n\n b) $b$ yra $16\\frac{2}{3}\\%$ mažesnis už $a$"
+            },
+            {
+                "Gebėjimas": "Lygčių ir nelygybių sudarymas",
+                "Atitikmuo": "$a$ sudaro $120\\%$ skaičiaus $b$. Sudarykite proporciją, pagal kurią galima rasti, kelis procentus skaičius $b$ sudaro skaičiaus $a$",
+                "Sprendimas": "$\\boxed{\\begin{array}{rcl} 100\\% & - & 120\\% \\\\ x\\% & - & 100\\% \\end{array}}$"
+            },
+            {
+                "Gebėjimas": "Procentai",
+                "Atitikmuo": "Išspręskite proporciją $\\boxed{\\begin{array}{rcl} 100\\% & - & 120\\% \\\\ x\\% & - & 100\\% \\end{array}}$",
+                "Sprendimas": "$\\boxed{120x = 10000} \\Rightarrow \\boxed{x = \\frac{10000}{120}=\\frac{500}{6}=83\\frac{1}{3}}$"
+            }
+        ],
+        "Sprendimas": [
+            "$a$ sudaro $120\\%$ skaičiaus $b$",
+            "Sudarome proporciją rasti, kurią dalį skaičiaus $a$ sudaro skaičius $b$: $\\boxed{\\begin{array}{rcl} 100\\% & - & 120\\% \\\\ x\\% & - & 100\\% \\end{array}}$",
+            "Teisingai išsprendę proporciją gauname $x = 83\\frac{1}{3}\\%$. Vadinasi $b$ yra $16\\frac{2}{3}\\%$ mažesnis už $a$"
+        ]
+    },
+    "6": {
+        "Sąlyga": "Trikampio $ABC$ kampai $\\angle A = 55^o$, $\\angle C = 75^o$. Kraštinėse $AB$ ir $BC$ atitinkamai pažymėti taškai $D$ ir $E$ taip, kad $DB = BE$ . Raskite kampo $\\angle ADE$ didumą. (4tšk.)",
+        "Gebėjimai": [
+            {
+                "Gebėjimas": "Trikampių savybės",
+                "Atitikmuo": "BRĖŽINYS: ![](licėjus\\imgeo2007.PNG) | **DUOTA:** <ul><li> $\\angle A = 55^o$ </li><li>$\\angle C = 75^o$ </li><li> $DB = BE$ </ul> **RASTI:** <ul><li>$\\angle ADE$</li></ul> \n :---|:--- \n Pagal duotą brėžinį raskite kampo $B$ dydį",
+                "Sprendimas": "$\\angle B = 180^o - \\angle A - \\angle C = 180^o - 55^o - 75^o = 50^o$"
+            },
+            {
+                "Gebėjimas": "Trikampių savybės",
+                "Atitikmuo": "BRĖŽINYS: ![](licėjus\\imgeo2007.PNG) | **DUOTA:** <ul><li> $\\angle A = 55^o$ </li><li>$\\angle C = 75^o$ </li><li> $DB = BE$ </ul> **RASTI:** <ul><li>$\\angle ADE$</li></ul> \n :---|:--- \n Žinoma, kad $\\angle B = 50^o$. Pagal duotą brėžinį raskite $\\angle BDE + \\angle BED$",
+                "Sprendimas": "$\\boxed{\\angle BDE + \\angle BED} = 180^o - \\angle B = 180^o - 50^o = 130^o$"
+            },
+            {
+                "Gebėjimas": "Trikampių savybės",
+                "Atitikmuo": "BRĖŽINYS: ![](licėjus\\imgeo2007.PNG) | **DUOTA:** <ul><li> $\\angle A = 55^o$ </li><li>$\\angle C = 75^o$ </li><li> $DB = BE$ </ul> **RASTI:** <ul><li>$\\angle ADE$</li></ul> \n :---|:--- \n Žinoma, kad $\\angle BDE + \\angle BED = 130^o$. Pagal duotą brėžinį raskite $\\angle BDE$",
+                "Sprendimas": "$\\triangle{DBE}$ lygiašonis, todėl $\\displaystyle\\angle BDE = \\angle BED = \\frac{\\boxed{\\angle BDE + \\angle BED}}{2} = \\frac{130^o}{2}=65^o$"
+            },
+            {
+                "Gebėjimas": "Kampų rūšys",
+                "Atitikmuo": "BRĖŽINYS: ![](licėjus\\imgeo2007.PNG) | **DUOTA:** <ul><li> $\\angle A = 55^o$ </li><li>$\\angle C = 75^o$ </li><li> $DB = BE$ </ul> **RASTI:** <ul><li>$\\angle ADE$</li></ul> \n :---|:--- \n Žinoma, kad $\\angle BDE = 65^o$. Pagal duotą brėžinį raskite $\\angle ADE$",
+                "Sprendimas": "$\\angle ADE = 180^o - \\angle{BED} = 180^o - 65^o = 115^o$"
+            }
+        ],
+        "Sprendimas": [
+            "BRĖŽINYS: ![](licėjus\\imgeo2007.PNG) | **DUOTA:** <ul><li> $\\angle A = 55^o$ </li><li>$\\angle C = 75^o$ </li><li> $DB = BE$ </ul> **RASTI:** <ul><li>$\\angle ADE$</li></ul> \n :---|:--- \n",
+            "$\\angle B = 180^o - \\angle A - \\angle C = 180^o - 55^o - 75^o = 50^o$",
+            "$\\boxed{\\angle BDE + \\angle BED} = 180^o - \\angle B = 180^o - 50^o = 130^o$",
+            "$\\triangle{DBE}$ lygiašonis, todėl $\\displaystyle\\angle BDE = \\angle BED = \\frac{\\boxed{\\angle BDE + \\angle BED}}{2} = \\frac{130^o}{2}=65^o$",
+            "$\\angle ADE = 180^o - \\angle{BED} = 180^o - 65^o = 115^o$"
+        ]
+    }
+}

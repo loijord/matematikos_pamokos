@@ -1,0 +1,26 @@
+{"Dalumas": "Atpažinti ir naudoti natūraliuosius skaičius. Taikyti dalumo iš 2, 3, 5, 9 ir 10 požymius. Atpažinti pirminius ir sudėtinius skaičius. Sudėtinius skaičius skaidyti pirminiais dauginamaisiais. Taikyti sąvokas: dviejų skaičių (didžiausiasis) bendrasis daliklis ar (mažiausiasis) bendrasis kartotinis.",
+"$\\mathbb{Z}$ ir $\\mathbb{Q}$ operacijos": "Atlikti aritmetinius veiksmus su sveikaisiais ir trupmeniniais skaičiais. Taikyti šias sąvokas skaičiams: priešingas, atvirkštinis, lyginis (nelyginis), modulis. Taikyti pagrindinę proporcijos savybę",
+"Procentai": "Suvokti procento sąvoką. Rasti skaičių, kai žinomi jo procentai, rasti skaičiaus procentą.", 
+"Šaknys ir laipsniai":"Taikyti žinias apie skaičiaus kėlimą sveikuoju laipsniu, kvadratinės ir kubinės šaknies traukimą. Atlikti nesudėtingus veiksmus su laipsniais.",
+"Vienanarių ir daugianarių operacijos": "Atlikti vienanarių ir daugianarių sudėtį, atimtį ir daugybą.", 
+"Laipsnių taikymas reiškiniuose": "Prastinant reiškinius taikyti veiksmų su laipsniais, kurių rodiklis sveikasis skaičius, savybes.", 
+"Skaidymas dauginamaisiais": "Nesudėtingais atvejais skaidyti daugianarius daugikliais.",
+"Greitosios daugybos formulės": "Taikyti greitosios daugybos formules.",
+"Tiesinės lygtys ir nelygybės": "Sudaryti ir spręsti tiesines lygtis, nelygybes. Jų sprendinius vaizduoti skaičių tiesėje.",
+"Lygčių ir nelygybių sudarymas": "Spręsti tekstinius uždavinius sudarant lygtis, nelygybes.",
+"Figūrų pažinimas": "Atpažinti, pavaizduoti, apibūdinti paprasčiausias geometrines figūras.",
+"Kampų rūšys": "Taikyti gretutinių, kryžminių kampų ir kampų, gautų dvi lygiagrečias tieses perkirtus trečiąja, savybes.",
+"Trikampių savybės": "Taikyti žinias apie trikampį, jo aukštines, pusiaukraštines, pusiaukampines. Taikyti lygiašonio ir lygiakraščio trikampio savybes, trikampių lygumo požymius. Skaičiuoti trikampio perimetrą ir plotą.",
+"Keturkampių savybės": "Taikyti keturkampių (kvadrato, stačiakampio, lygiagretainio, rombo, trapecijos) savybes ir skaičiuoti jų perimetrus bei plotus.",
+"Pitagoro teorema": "Taikyti Pitagoro ir jai atvirkštinę teoremas.",
+"Apskritimo ir skritulio savybės": "Taikyti žinias apie apskritimą ir skritulį. Skaičiuoti apskritimo ilgį ir skritulio plotą.",
+"Erdvės geometrija": "Paprastais atvejais apskaičiuoti kubo, stačiakampio gretasienio, taisyklingosios piramidės, ritinio ir kūgio elementus.",
+"Sudėties ir daugybos taisyklės": "Taikyti kombinatorines sudėties ir daugybos taisykles, sprendžiant paprastus uždavinius. (pvz. nustatyti, kiek yra palindrominių penkiaženklių skaičių)."
+}
+
+
+
+
+
+
+
